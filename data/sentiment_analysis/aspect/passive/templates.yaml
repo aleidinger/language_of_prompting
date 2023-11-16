@@ -1,0 +1,78 @@
+dataset: sst/passive
+templates:
+  1c873468-3d24-46b5-8a92-cd464b1ae848: !Template
+    answer_choices: no ||| yes
+    id: 1c873468-3d24-46b5-8a92-cd464b1ae848
+    jinja: 'Is this movie review labelled as positive by people?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: label_pos
+    reference: ''
+  3402d5dd-3532-4c46-a5a8-973f34264506: !Template
+    answer_choices: no ||| yes
+    id: 3402d5dd-3532-4c46-a5a8-973f34264506
+    jinja: 'Is this movie review considered positive by people?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: consider_pos
+    reference: ''
+  47fd772b-cdfa-4efa-b54f-903dbfc83704: !Template
+    answer_choices: no ||| yes
+    id: 47fd772b-cdfa-4efa-b54f-903dbfc83704
+    jinja: 'Are people made to think by this review that this is a good movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: review_makes_think
+    reference: ''
+  97a02a18-0449-4071-af1a-227a7c3e6c4b: !Template
+    answer_choices: no ||| yes
+    id: 97a02a18-0449-4071-af1a-227a7c3e6c4b
+    jinja: 'Is this movie liked by people?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: like_movie
+    reference: ''

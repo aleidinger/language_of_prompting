@@ -1,0 +1,32 @@
+dataset: super_glue/cb/implication
+templates:
+  8b6ae035-6bc1-4296-83dc-52886eafa84a: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 8b6ae035-6bc1-4296-83dc-52886eafa84a
+    jinja: "Given premise: \"{{premise}}\" and hypothesis: \"{{hypothesis}}\". Is\
+      \ the label implication? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: label_implication
+    reference: ''
+  8ce6f80a-09d0-412e-98c1-b13c2d72a20f: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 8ce6f80a-09d0-412e-98c1-b13c2d72a20f
+    jinja: "Is the relationship between \"{{premise}}\" and \"{{hypothesis}}\" implication?\
+      \ \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: relationship_implication
+    reference: ''

@@ -1,0 +1,154 @@
+dataset: sst/can
+templates:
+  032dca4a-f38f-42a7-92bf-6cd8ffb405f5: !Template
+    answer_choices: no ||| yes
+    id: 032dca4a-f38f-42a7-92bf-6cd8ffb405f5
+    jinja: 'Can you want to watch this movie based on this movie review?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'want_watch'
+    reference: ''
+  1477f670-30f0-453c-8fa2-a8a3b4954ff5: !Template
+    answer_choices: no ||| yes
+    id: 1477f670-30f0-453c-8fa2-a8a3b4954ff5
+    jinja: 'Can this movie review make people think this is a good movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'make_think'
+    reference: ''
+  23ec2eb8-31bc-4965-87ff-97eb4f192cad: !Template
+    answer_choices: no ||| yes
+    id: 23ec2eb8-31bc-4965-87ff-97eb4f192cad
+    jinja: 'Can you like the movie based on this movie review?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'like_movie'
+    reference: ''
+  38f92994-e2a6-4840-b595-0504c6942566: !Template
+    answer_choices: no ||| yes
+    id: 38f92994-e2a6-4840-b595-0504c6942566
+    jinja: 'Can this be a good movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'good_movie'
+    reference: ''
+  5ce9ab49-0373-4667-8416-0988b6143c35: !Template
+    answer_choices: no ||| yes
+    id: 5ce9ab49-0373-4667-8416-0988b6143c35
+    jinja: 'Can this movie review be positive?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'pos'
+    reference: ''
+  73530dd5-ca45-4592-80bd-4e9241f6676c: !Template
+    answer_choices: no ||| yes
+    id: 73530dd5-ca45-4592-80bd-4e9241f6676c
+    jinja: 'Can the label for this movie review be positive?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'label'
+    reference: ''
+  c6b1ff44-6ebc-40c1-866e-3f649da19645: !Template
+    answer_choices: no ||| yes
+    id: c6b1ff44-6ebc-40c1-866e-3f649da19645
+    jinja: 'Can this movie review make people want to watch this movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'people'
+    reference: ''
+  e0e4f3a9-ae41-4d2e-98ce-08cb699f45ab: !Template
+    answer_choices: no ||| yes
+    id: e0e4f3a9-ae41-4d2e-98ce-08cb699f45ab
+    jinja: 'Can you find this movie review positive?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'find'
+    reference: ''

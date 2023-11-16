@@ -1,0 +1,32 @@
+dataset: super_glue/cb/assertion
+templates:
+  77525acc-a2f1-4c16-a100-2440e2804553: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 77525acc-a2f1-4c16-a100-2440e2804553
+    jinja: "Given \"{{premise}}\" is the assertion \"{{hypothesis}}\" correct? \n\
+      |||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: assertion_correct
+    reference: ''
+  8721e772-adf4-4fe5-9f2c-ba46f9965dbc: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 8721e772-adf4-4fe5-9f2c-ba46f9965dbc
+    jinja: "Given \"{{premise}}\" is the assertion \"{{hypothesis}}\" true? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: assertion_true
+    reference: ''

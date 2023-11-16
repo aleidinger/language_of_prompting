@@ -1,0 +1,154 @@
+dataset: sst/future
+templates:
+  02f04261-0f1b-4d97-b5f7-5bb66fe2685a: !Template
+    answer_choices: no ||| yes
+    id: 02f04261-0f1b-4d97-b5f7-5bb66fe2685a
+    jinja: 'Will the label for this movie review be positive?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: label_pos
+    reference: ''
+  0ab7b054-c626-4e94-a3a7-56ab6dc8fff3: !Template
+    answer_choices: no ||| yes
+    id: 0ab7b054-c626-4e94-a3a7-56ab6dc8fff3
+    jinja: 'Will this movie review make people want to watch this movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: review_makes_watch
+    reference: ''
+  16f154f2-d3d4-4579-b5d0-24c5a6161ce3: !Template
+    answer_choices: no ||| yes
+    id: 16f154f2-d3d4-4579-b5d0-24c5a6161ce3
+    jinja: 'Will this be a good movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: good_movie
+    reference: ''
+  492faa3e-87e2-4015-9e3f-af32d0720683: !Template
+    answer_choices: no ||| yes
+    id: 492faa3e-87e2-4015-9e3f-af32d0720683
+    jinja: 'Will you find this movie review positive?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: find_review_pos
+    reference: ''
+  a7445173-6398-4c1a-8f08-6b76c922717c: !Template
+    answer_choices: no ||| yes
+    id: a7445173-6398-4c1a-8f08-6b76c922717c
+    jinja: 'Will this movie review make people think this is a good movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: review_makes_think
+    reference: ''
+  a82000ac-9f06-4053-84b6-1000d455157b: !Template
+    answer_choices: no ||| yes
+    id: a82000ac-9f06-4053-84b6-1000d455157b
+    jinja: 'Will this movie review be positive?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: review_pos
+    reference: ''
+  aa90f8f4-2f0e-49a6-977b-84c582c51dce: !Template
+    answer_choices: no ||| yes
+    id: aa90f8f4-2f0e-49a6-977b-84c582c51dce
+    jinja: 'Will you like the movie based on this movie review?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: like_movie
+    reference: ''
+  e61ce5b6-4fe1-4b6d-8c52-b1b78970f736: !Template
+    answer_choices: no ||| yes
+    id: e61ce5b6-4fe1-4b6d-8c52-b1b78970f736
+    jinja: 'Will you want to watch this movie based on this movie review?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: watch_movie
+    reference: ''

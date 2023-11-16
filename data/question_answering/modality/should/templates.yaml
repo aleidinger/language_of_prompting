@@ -1,0 +1,82 @@
+dataset: boolq/should_interrogative
+templates:
+  7368fdc4-79e8-4723-a323-4c1e6d6be2a9: !Template
+    answer_choices: False ||| True
+    id: 7368fdc4-79e8-4723-a323-4c1e6d6be2a9
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer should you choose?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: choose
+    reference: ''
+  7d90d060-89fc-4d65-9c6e-3e0814112be4: !Template
+    answer_choices: False ||| True
+    id: 7d90d060-89fc-4d65-9c6e-3e0814112be4
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which should be the correct answer to the question?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct2
+    reference: ''
+  7dfb6d49-9836-46d3-af3a-f5a7edc29853: !Template
+    answer_choices: False ||| True
+    id: 7dfb6d49-9836-46d3-af3a-f5a7edc29853
+    jinja: '{{passage}}
+
+      Question: {{question}}? What do you think should be the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: think
+    reference: ''
+  9ba6ff02-2230-41d4-aa24-a4c34871cae5: !Template
+    answer_choices: False ||| True
+    id: 9ba6ff02-2230-41d4-aa24-a4c34871cae5
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer should be correct?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct
+    reference: ''

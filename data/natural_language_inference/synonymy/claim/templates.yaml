@@ -1,0 +1,31 @@
+dataset: super_glue/cb/claim
+templates:
+  0528387a-64ef-4b93-a0f6-028663b369cc: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 0528387a-64ef-4b93-a0f6-028663b369cc
+    jinja: "Given \"{{premise}}\" is the claim \"{{hypothesis}}\" true? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: claim_true
+    reference: ''
+  9e6c18a2-aa27-4319-8b4f-c03eb9bf1ace: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 9e6c18a2-aa27-4319-8b4f-c03eb9bf1ace
+    jinja: "Given \"{{premise}}\" is the claim \"{{hypothesis}}\" correct? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: claim_correct
+    reference: ''

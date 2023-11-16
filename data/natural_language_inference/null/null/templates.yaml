@@ -1,0 +1,34 @@
+dataset: super_glue/cb/null
+templates:
+  124b5ec7-d5d1-459f-9c6b-63d7cb085b5c: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 124b5ec7-d5d1-459f-9c6b-63d7cb085b5c
+    jinja: "\"{{premise}}\" 
+    
+     \"{{hypothesis}}\"\n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: nullquotes
+    reference: ''
+  154388e6-5db9-4e20-bc8a-6c0cc4936332: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 154388e6-5db9-4e20-bc8a-6c0cc4936332
+    jinja: "{{premise}}
+      
+      {{hypothesis}}\n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: nullnoquotes
+    reference: ''

@@ -1,0 +1,179 @@
+dataset: super_glue/cb/past
+templates:
+  29484f64-f5e0-4935-af94-80625047410a: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 29484f64-f5e0-4935-af94-80625047410a
+    jinja: "Given \"{{premise}}\" was it true that \"{{hypothesis}}\"? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'true'
+    reference: ''
+  5d993063-1a60-453b-b646-0d30ed779c68: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 5d993063-1a60-453b-b646-0d30ed779c68
+    jinja: "Given \"{{premise}}\" did you reason that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: reason
+    reference: ''
+  6433656e-c677-4efe-bfc2-9ad29595a3bb: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 6433656e-c677-4efe-bfc2-9ad29595a3bb
+    jinja: "Given \"{{premise}}\" were you justified in saying that \"{{hypothesis}}\"\
+      ? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: justified
+    reference: ''
+  855eff48-5851-4af9-b512-9e2da89fc509: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 855eff48-5851-4af9-b512-9e2da89fc509
+    jinja: "Given \"{{premise}}\" did you infer that \"{{hypothesis}}\"? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: infer
+    reference: ''
+  89ed030e-e601-477e-9b1d-ae610e241b1a: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 89ed030e-e601-477e-9b1d-ae610e241b1a
+    jinja: "Given \"{{premise}}\" did it follow that \"{{hypothesis}}\"? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: follow
+    reference: ''
+  8fa202b2-b24d-4bb2-9a25-62eddcf29699: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 8fa202b2-b24d-4bb2-9a25-62eddcf29699
+    jinja: "Given \"{{premise}}\" did you assume that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: assume
+    reference: ''
+  9ba84bee-67d0-449b-813a-6f9b0310a18f: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 9ba84bee-67d0-449b-813a-6f9b0310a18f
+    jinja: "Given \"{{premise}}\" was the claim \"{{hypothesis}}\" correct? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: claim_correct
+    reference: ''
+  9cfafe38-8cd5-4059-b38b-847f3683ecaf: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 9cfafe38-8cd5-4059-b38b-847f3683ecaf
+    jinja: "\"{{premise}}\" Using only the above description and what you know about\
+      \ the world was \"{{hypothesis}}\" correct? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: williams
+    reference: ''
+  a944a1fd-000a-4348-a6b2-d21731d72854: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: a944a1fd-000a-4348-a6b2-d21731d72854
+    jinja: "Given \"{{premise}}\" did this imply that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: implies
+    reference: ''
+  b629f57a-ee9e-46df-bbdd-716b74e936bb: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: b629f57a-ee9e-46df-bbdd-716b74e936bb
+    jinja: "Given \"{{premise}}\" did you deduce that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: deduce
+    reference: ''
+  cef0255b-6ba3-472c-8906-1b1a51896a93: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: cef0255b-6ba3-472c-8906-1b1a51896a93
+    jinja: "Was the relationship between \"{{premise}}\" and \"{{hypothesis}}\" entailment?\
+      \ \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: relationship_entailment
+    reference: ''
+  dd7a4a94-f3c5-4fbf-9348-f63ee8d00368: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: dd7a4a94-f3c5-4fbf-9348-f63ee8d00368
+    jinja: "Given premise \"{{premise}}\" and hypothesis \"{{hypothesis}}\" was the\
+      \ label entailment? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: label_entailment
+    reference: ''

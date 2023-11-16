@@ -1,0 +1,154 @@
+dataset: sst/would
+templates:
+  124e4560-fc91-48a6-b7ad-78f79ce49ea3: !Template
+    answer_choices: no ||| yes
+    id: 124e4560-fc91-48a6-b7ad-78f79ce49ea3
+    jinja: 'Would you like the movie based on this movie review?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'like_movie'
+    reference: ''
+  5c034963-ed63-4d30-9011-53d54caf3897: !Template
+    answer_choices: no ||| yes
+    id: 5c034963-ed63-4d30-9011-53d54caf3897
+    jinja: 'Would this movie review make people want to watch this movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'people'
+    reference: ''
+  5c820307-e7a8-418a-a0b2-0b8f491e0e9f: !Template
+    answer_choices: no ||| yes
+    id: 5c820307-e7a8-418a-a0b2-0b8f491e0e9f
+    jinja: 'Would you want to watch this movie based on this movie review?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'want_watch'
+    reference: ''
+  6ee11cd0-634b-479f-bfed-cf603d48eef4: !Template
+    answer_choices: no ||| yes
+    id: 6ee11cd0-634b-479f-bfed-cf603d48eef4
+    jinja: 'Would the label for this movie review be positive?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'label'
+    reference: ''
+  71d74749-771c-4ac5-8464-2276a2f0e356: !Template
+    answer_choices: no ||| yes
+    id: 71d74749-771c-4ac5-8464-2276a2f0e356
+    jinja: 'Would you find this movie review positive?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'find'
+    reference: ''
+  aa331ab8-b653-4ef7-8609-469d25a4fd1c: !Template
+    answer_choices: no ||| yes
+    id: aa331ab8-b653-4ef7-8609-469d25a4fd1c
+    jinja: 'Would this movie review be positive?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'pos'
+    reference: ''
+  d803872b-af55-4d50-8bd7-c6caef1b2ea5: !Template
+    answer_choices: no ||| yes
+    id: d803872b-af55-4d50-8bd7-c6caef1b2ea5
+    jinja: 'Would this movie review make people think this is a good movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'make_think'
+    reference: ''
+  f3e8d9ba-48fe-4a77-bd8e-deb48bb3e786: !Template
+    answer_choices: no ||| yes
+    id: f3e8d9ba-48fe-4a77-bd8e-deb48bb3e786
+    jinja: 'Would this be a good movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'good_movie'
+    reference: ''

@@ -1,0 +1,180 @@
+dataset: super_glue/cb/may
+templates:
+  059c3fe3-5b17-43ef-a4be-805b9989973e: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 059c3fe3-5b17-43ef-a4be-805b9989973e
+    jinja: "May the relationship between \"{{premise}}\" and \"{{hypothesis}}\" be\
+      \ entailment? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: relationship_entailment
+    reference: ''
+  116e9dc9-b920-48e6-ad62-dca6825a48cd: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 116e9dc9-b920-48e6-ad62-dca6825a48cd
+    jinja: "Given \"{{premise}}\" may you assume that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: assume
+    reference: ''
+  397eb278-528c-4499-80cf-7a1d3006717d: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 397eb278-528c-4499-80cf-7a1d3006717d
+    jinja: "Given premise \"{{premise}}\" and hypothesis \"{{hypothesis}}\" May the\
+      \ label be entailment? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: label_entailment
+    reference: ''
+  a04437a1-f235-4ce2-beaa-61f9887c4b0b: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: a04437a1-f235-4ce2-beaa-61f9887c4b0b
+    jinja: "Given \"{{premise}}\" may you infer that \"{{hypothesis}}\"? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: infer
+    reference: ''
+  a439b228-7882-4d53-b410-6e10f3f32320: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: a439b228-7882-4d53-b410-6e10f3f32320
+    jinja: "Given \"{{premise}}\" may this imply that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: implies
+    reference: ''
+  a59341d1-083d-4ba3-99b3-c58ef94674c2: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: a59341d1-083d-4ba3-99b3-c58ef94674c2
+    jinja: "Given \"{{premise}}\" may you deduce that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: deduce
+    reference: ''
+  be82e846-7574-4073-8457-0c60df0969c2: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: be82e846-7574-4073-8457-0c60df0969c2
+    jinja: "Given \"{{premise}}\" may it be true that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'true'
+    reference: ''
+  bf7a11b4-0473-4670-9608-dfc28bbc8ba1: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: bf7a11b4-0473-4670-9608-dfc28bbc8ba1
+    jinja: "\"{{premise}}\" Using only the above description and what you know about\
+      \ the world may \"{{hypothesis}}\" be correct? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: williams
+    reference: ''
+  c34794ba-5d4d-44cb-bd60-b228a58db024: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: c34794ba-5d4d-44cb-bd60-b228a58db024
+    jinja: "Given \"{{premise}}\" may the claim \"{{hypothesis}}\" be correct? \n\
+      |||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: claim_correct
+    reference: ''
+  ccf4fc8a-887f-4a83-9cf7-c252bb712bbe: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: ccf4fc8a-887f-4a83-9cf7-c252bb712bbe
+    jinja: "Given \"{{premise}}\" may you be justified in saying that \"{{hypothesis}}\"\
+      ? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: justified
+    reference: ''
+  d4531f3e-5eb1-405f-94d1-eb47d4a84bbc: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: d4531f3e-5eb1-405f-94d1-eb47d4a84bbc
+    jinja: "Given \"{{premise}}\" may you reason that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: reason
+    reference: ''
+  d80a14d9-75e8-43bf-871f-54aaddad658f: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: d80a14d9-75e8-43bf-871f-54aaddad658f
+    jinja: "Given \"{{premise}}\" may it follow that \"{{hypothesis}}\"? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: follow
+    reference: ''

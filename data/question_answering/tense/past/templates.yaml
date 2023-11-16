@@ -1,0 +1,242 @@
+dataset: boolq/past
+templates:
+  077577ae-ed25-453e-8cc6-2e533c09a5ac: !Template
+    answer_choices: False ||| True
+    id: 077577ae-ed25-453e-8cc6-2e533c09a5ac
+    jinja: '{{passage}}
+
+      Question: {{question}}? Did you select the most suitable answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: select
+    reference: ''
+  1d33aa02-0052-4787-81d3-e4b268799729: !Template
+    answer_choices: False ||| True
+    id: 1d33aa02-0052-4787-81d3-e4b268799729
+    jinja: '{{passage}}
+
+      Question: {{question}}? Did you solve the question by choosing the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: solve
+    reference: ''
+  2c763eb7-8635-4243-8dfb-c7ac1c32350f: !Template
+    answer_choices: False ||| True
+    id: 2c763eb7-8635-4243-8dfb-c7ac1c32350f
+    jinja: '{{passage}}
+
+      Question: {{question}}? Did you answer the question?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: aq
+    reference: ''
+  53fa05c0-df78-4998-8711-49c9622ae8d6: !Template
+    answer_choices: False ||| True
+    id: 53fa05c0-df78-4998-8711-49c9622ae8d6
+    jinja: '{{passage}}
+
+      Question: {{question}}? Did you infer the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: infer
+    reference: ''
+  5d62fb84-1827-4868-9165-7263aa3353dd: !Template
+    answer_choices: False ||| True
+    id: 5d62fb84-1827-4868-9165-7263aa3353dd
+    jinja: '{{passage}}
+
+      Question: {{question}}? Did you give me the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: give
+    reference: ''
+  8f31914e-ab06-40db-b2c9-5cdcb12f6431: !Template
+    answer_choices: False ||| True
+    id: 8f31914e-ab06-40db-b2c9-5cdcb12f6431
+    jinja: '{{passage}}
+
+      Question: {{question}}? Did you pick the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: pick
+    reference: ''
+  b1f7eac9-e262-450d-85c9-9a6e4a9f4a98: !Template
+    answer_choices: False ||| True
+    id: b1f7eac9-e262-450d-85c9-9a6e4a9f4a98
+    jinja: '{{passage}}
+
+      Question: {{question}}? What did you think was the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: think
+    reference: ''
+  b7733588-6d03-4d8d-8b46-bc7b97b6281a: !Template
+    answer_choices: False ||| True
+    id: b7733588-6d03-4d8d-8b46-bc7b97b6281a
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer did you choose?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: choose
+    reference: ''
+  babaaccd-e121-48b6-9b19-9a587f5ae3bd: !Template
+    answer_choices: False ||| True
+    id: babaaccd-e121-48b6-9b19-9a587f5ae3bd
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer was correct?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct
+    reference: ''
+  c9d1669d-14f9-4adf-bd8c-08f05492b3e9: !Template
+    answer_choices: False ||| True
+    id: c9d1669d-14f9-4adf-bd8c-08f05492b3e9
+    jinja: '{{passage}}
+
+      Question: {{question}}? Did you tell me which answer was correct?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: tell
+    reference: ''
+  e25ad09f-df25-45a8-aef7-1e175317ee93: !Template
+    answer_choices: False ||| True
+    id: e25ad09f-df25-45a8-aef7-1e175317ee93
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which was the correct answer to the question?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct2
+    reference: ''
+  ecfa467c-93dc-4055-887c-37bd178567fa: !Template
+    answer_choices: False ||| True
+    id: ecfa467c-93dc-4055-887c-37bd178567fa
+    jinja: '{{passage}}
+
+      Question: {{question}}? Did you choose the best answer to the question?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: best
+    reference: ''

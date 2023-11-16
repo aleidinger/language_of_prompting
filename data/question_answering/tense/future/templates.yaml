@@ -1,0 +1,243 @@
+dataset: boolq/future
+templates:
+  0e02c907-d171-4690-861d-ec3f461f1791: !Template
+    answer_choices: False ||| True
+    id: 0e02c907-d171-4690-861d-ec3f461f1791
+    jinja: '{{passage}}
+
+      Question: {{question}}? What will you think will be the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: think
+    reference: ''
+  3d46ffe8-3f8b-48e1-964a-f6c55dd230bf: !Template
+    answer_choices: False ||| True
+    id: 3d46ffe8-3f8b-48e1-964a-f6c55dd230bf
+    jinja: '{{passage}}
+
+      Question: {{question}}? Will you pick the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: pick
+    reference: ''
+  3e5952a9-134d-4c18-b2e0-ea02d92671a0: !Template
+    answer_choices: False ||| True
+    id: 3e5952a9-134d-4c18-b2e0-ea02d92671a0
+    jinja: '{{passage}}
+
+      Question: {{question}}? Will you infer the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: infer
+    reference: ''
+  6825d4f7-133d-436c-aa23-d78e65ed64e5: !Template
+    answer_choices: False ||| True
+    id: 6825d4f7-133d-436c-aa23-d78e65ed64e5
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer will be correct?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct
+    reference: ''
+  695ff01f-7bd0-4c85-ab0d-cd7eb2af9974: !Template
+    answer_choices: False ||| True
+    id: 695ff01f-7bd0-4c85-ab0d-cd7eb2af9974
+    jinja: '{{passage}}
+
+      Question: {{question}}? Will you answer the question?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: aq
+    reference: ''
+  6cfa3183-1e3e-422c-9b6d-2c59fac991b7: !Template
+    answer_choices: False ||| True
+    id: 6cfa3183-1e3e-422c-9b6d-2c59fac991b7
+    jinja: '{{passage}}
+
+      Question: {{question}}? Will you select the most suitable answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: select
+    reference: ''
+  7b6f7c3f-7092-4dad-8839-f90d84711e49: !Template
+    answer_choices: False ||| True
+    id: 7b6f7c3f-7092-4dad-8839-f90d84711e49
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer will you choose?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: choose
+    reference: ''
+  8b7a5c80-1385-4b96-8cc3-1de92611b217: !Template
+    answer_choices: False ||| True
+    id: 8b7a5c80-1385-4b96-8cc3-1de92611b217
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which will be the correct answer to the question?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct2
+    reference: ''
+  aa63515d-fba5-4c1f-99eb-156319d2e0a0: !Template
+    answer_choices: False ||| True
+    id: aa63515d-fba5-4c1f-99eb-156319d2e0a0
+    jinja: '{{passage}}
+
+      Question: {{question}}? Will you give me the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: give
+    reference: ''
+  c124b043-30b1-444e-9df5-be54292c0da2: !Template
+    answer_choices: False ||| True
+    id: c124b043-30b1-444e-9df5-be54292c0da2
+    jinja: '{{passage}}
+
+      Question: {{question}}? Will you solve the question by choosing the correct
+      answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: solve
+    reference: ''
+  c8d370a6-a181-40e3-aa9a-f1ee304f0c7d: !Template
+    answer_choices: False ||| True
+    id: c8d370a6-a181-40e3-aa9a-f1ee304f0c7d
+    jinja: '{{passage}}
+
+      Question: {{question}}? Will you choose the best answer to the question?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: best
+    reference: ''
+  f2cdd66a-1028-4424-aa03-412dc3c4c098: !Template
+    answer_choices: False ||| True
+    id: f2cdd66a-1028-4424-aa03-412dc3c4c098
+    jinja: '{{passage}}
+
+      Question: {{question}}? Will you tell me which answer will be correct?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: tell
+    reference: ''

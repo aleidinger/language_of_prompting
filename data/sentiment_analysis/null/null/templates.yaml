@@ -1,0 +1,62 @@
+dataset: sst/null
+templates:
+  0c2a7538-8e64-4aa4-bf67-18720b3a20bc: !Template
+    answer_choices: false ||| true
+    id: 0c2a7538-8e64-4aa4-bf67-18720b3a20bc
+    jinja: '{{sentence}} |||
+
+      {{answer_choices
+
+      [0 if label < 0.5 else 1]
+
+      }}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: null_false_true
+    reference: ''
+  2106b364-c4b7-4da0-a426-c1d444dcde03: !Template
+    answer_choices: no ||| yes
+    id: 2106b364-c4b7-4da0-a426-c1d444dcde03
+    jinja: '{{sentence}} |||
+
+      {{answer_choices
+
+      [0 if label < 0.5 else 1]
+
+      }}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: null_no_yes
+    reference: ''
+  f8e9d8d0-242e-44d6-8152-61da9b332430: !Template
+    answer_choices: negative ||| positive
+    id: f8e9d8d0-242e-44d6-8152-61da9b332430
+    jinja: '{{sentence}} |||
+
+      {{answer_choices
+
+      [0 if label < 0.5 else 1]
+
+      }}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: null_negative_positive
+    reference: ''

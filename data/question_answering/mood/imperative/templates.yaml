@@ -1,0 +1,242 @@
+dataset: boolq/imperative
+templates:
+  0fb946c2-5654-438f-9fba-bf89057376dc: !Template
+    answer_choices: False ||| True
+    id: 0fb946c2-5654-438f-9fba-bf89057376dc
+    jinja: '{{passage}}
+
+      Question: {{question}}? Tell me which answer you choose.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: choose
+    reference: ''
+  15881f9f-5e58-4689-b299-7b4a87bad8aa: !Template
+    answer_choices: False ||| True
+    id: 15881f9f-5e58-4689-b299-7b4a87bad8aa
+    jinja: '{{passage}}
+
+      Question: {{question}}? Answer the question.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: aq
+    reference: ''
+  1dc71687-a5d0-4754-91f2-fd18f871d569: !Template
+    answer_choices: False ||| True
+    id: 1dc71687-a5d0-4754-91f2-fd18f871d569
+    jinja: '{{passage}}
+
+      Question: {{question}}? Solve the question by choosing the correct answer.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: solve
+    reference: ''
+  246db294-5c81-490b-a98a-f1fc41c23c92: !Template
+    answer_choices: False ||| True
+    id: 246db294-5c81-490b-a98a-f1fc41c23c92
+    jinja: '{{passage}}
+
+      Question: {{question}}? Tell me which answer is correct.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct
+    reference: ''
+  3a896c7a-0702-4475-9072-5ef9c127a60e: !Template
+    answer_choices: False ||| True
+    id: 3a896c7a-0702-4475-9072-5ef9c127a60e
+    jinja: '{{passage}}
+
+      Question: {{question}}? Give me the correct answer.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: give
+    reference: ''
+  4707585e-b7a9-4ea4-be48-63de362d62b7: !Template
+    answer_choices: False ||| True
+    id: 4707585e-b7a9-4ea4-be48-63de362d62b7
+    jinja: '{{passage}}
+
+      Question: {{question}}? Select the most suitable answer.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: select
+    reference: ''
+  92a910f6-d577-495d-80af-0812734632b3: !Template
+    answer_choices: False ||| True
+    id: 92a910f6-d577-495d-80af-0812734632b3
+    jinja: '{{passage}}
+
+      Question: {{question}}? Tell me which answer is correct.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: tell
+    reference: ''
+  b50b342f-ae14-4e9b-99d5-66971508c555: !Template
+    answer_choices: False ||| True
+    id: b50b342f-ae14-4e9b-99d5-66971508c555
+    jinja: '{{passage}}
+
+      Question: {{question}}? Infer the correct answer.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: infer
+    reference: ''
+  c7376d55-2406-4e50-83a6-865d61ffd4b6: !Template
+    answer_choices: False ||| True
+    id: c7376d55-2406-4e50-83a6-865d61ffd4b6
+    jinja: '{{passage}}
+
+      Question: {{question}}? Choose the best answer to the question.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: best
+    reference: ''
+  cc2703bb-4b0e-4cd7-87b1-81de7c27019c: !Template
+    answer_choices: False ||| True
+    id: cc2703bb-4b0e-4cd7-87b1-81de7c27019c
+    jinja: '{{passage}}
+
+      Question: {{question}}? Pick the correct answer.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: pick
+    reference: ''
+  dd51cb56-1251-4f96-a616-2d55f9d595e2: !Template
+    answer_choices: False ||| True
+    id: dd51cb56-1251-4f96-a616-2d55f9d595e2
+    jinja: '{{passage}}
+
+      Question: {{question}}? Tell me which is the correct answer to the question.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct2
+    reference: ''
+  f0c46497-0132-452b-830e-2598b902fe95: !Template
+    answer_choices: False ||| True
+    id: f0c46497-0132-452b-830e-2598b902fe95
+    jinja: '{{passage}}
+
+      Question: {{question}}? Tell me what you think is the correct answer.
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: think
+    reference: ''

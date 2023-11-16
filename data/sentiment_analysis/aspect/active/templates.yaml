@@ -1,0 +1,78 @@
+dataset: sst/active
+templates:
+  431b0992-22f8-4821-a312-4c78b016fb6d: !Template
+    answer_choices: no ||| yes
+    id: 431b0992-22f8-4821-a312-4c78b016fb6d
+    jinja: 'Do people consider this movie review positive?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: consider_pos
+    reference: ''
+  7f26f12b-28e2-44ff-8b76-d8fead3f52c2: !Template
+    answer_choices: no ||| yes
+    id: 7f26f12b-28e2-44ff-8b76-d8fead3f52c2
+    jinja: 'Does this movie review make people think that this is a good movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: review_makes_think
+    reference: ''
+  8f610b10-e27b-4cde-9b26-d3cd118a705d: !Template
+    answer_choices: no ||| yes
+    id: 8f610b10-e27b-4cde-9b26-d3cd118a705d
+    jinja: 'Do people label this movie review as positive?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: label_pos
+    reference: ''
+  af62d3ac-3536-43aa-b8ce-33d19786141a: !Template
+    answer_choices: no ||| yes
+    id: af62d3ac-3536-43aa-b8ce-33d19786141a
+    jinja: 'Do people like this movie?
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: like_movie
+    reference: ''

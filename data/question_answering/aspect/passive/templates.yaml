@@ -1,0 +1,203 @@
+dataset: boolq/passive
+templates:
+  052e29ee-9bb0-469c-8491-1d5e97c0a8b6: !Template
+    answer_choices: False ||| True
+    id: 052e29ee-9bb0-469c-8491-1d5e97c0a8b6
+    jinja: '{{passage}}
+
+      Question: {{question}}? Could the correct answer be inferred?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: infer
+    reference: ''
+  6f43028d-98d2-457a-a99f-8394afdce4b2: !Template
+    answer_choices: False ||| True
+    id: 6f43028d-98d2-457a-a99f-8394afdce4b2
+    jinja: '{{passage}}
+
+      Question: {{question}}? Could the question be answered?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: aq
+    reference: ''
+  a5516fe2-5efc-40d9-85df-51e67e38022b: !Template
+    answer_choices: False ||| True
+    id: a5516fe2-5efc-40d9-85df-51e67e38022b
+    jinja: '{{passage}}
+
+      Question: {{question}}? Could it be told which answer is correct?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: tell
+    reference: ''
+  af1a9503-c950-4333-93a5-d7e131fae4aa: !Template
+    answer_choices: False ||| True
+    id: af1a9503-c950-4333-93a5-d7e131fae4aa
+    jinja: '{{passage}}
+
+      Question: {{question}}? Could the question be solved by choosing the correct
+      answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: solve
+    reference: ''
+  b5645475-1517-432d-b51c-316ae03e170c: !Template
+    answer_choices: False ||| True
+    id: b5645475-1517-432d-b51c-316ae03e170c
+    jinja: '{{passage}}
+
+      Question: {{question}}? What is thought to be the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: think
+    reference: ''
+  ce2598f2-eadc-477b-8109-41eb80ae5981: !Template
+    answer_choices: False ||| True
+    id: ce2598f2-eadc-477b-8109-41eb80ae5981
+    jinja: '{{passage}}
+
+      Question: {{question}}? Could the correct answer be picked?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: pick
+    reference: ''
+  d2654e01-b7a2-4dfd-bedd-9d8079392b59: !Template
+    answer_choices: False ||| True
+    id: d2654e01-b7a2-4dfd-bedd-9d8079392b59
+    jinja: '{{passage}}
+
+      Question: {{question}}? Could the correct answer be given?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: give
+    reference: ''
+  d55400c8-99aa-413d-96df-770227cadf33: !Template
+    answer_choices: False ||| True
+    id: d55400c8-99aa-413d-96df-770227cadf33
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer could be chosen?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: choose
+    reference: ''
+  e331d9c3-f1d5-4a23-a823-126d857c081e: !Template
+    answer_choices: False ||| True
+    id: e331d9c3-f1d5-4a23-a823-126d857c081e
+    jinja: '{{passage}}
+
+      Question: {{question}}? Could the most suitable answer be selected?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: select
+    reference: ''
+  f98aa907-b4da-4cbb-a97b-4156c436c37c: !Template
+    answer_choices: False ||| True
+    id: f98aa907-b4da-4cbb-a97b-4156c436c37c
+    jinja: '{{passage}}
+
+      Question: {{question}}? Could the best answer to the question be chosen?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: best
+    reference: ''

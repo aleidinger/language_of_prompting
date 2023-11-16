@@ -1,0 +1,1045 @@
+task,category,linguistice_property,template_name,template
+sentiment_analysis,aspect,active,consider_pos,"Do people consider this movie review positive?
+
+{sentence}"
+sentiment_analysis,aspect,active,label_pos,"Do people label this movie review as positive?
+
+{sentence}"
+sentiment_analysis,aspect,active,like_movie,"Do people like this movie?
+
+{sentence}"
+sentiment_analysis,aspect,active,review_makes_think,"Does this movie review make people think that this is a good movie?
+
+{sentence}"
+sentiment_analysis,aspect,passive,consider_pos,"Is this movie review considered positive by people?
+
+{sentence}"
+sentiment_analysis,aspect,passive,label_pos,"Is this movie review labelled as positive by people?
+
+{sentence}"
+sentiment_analysis,aspect,passive,like_movie,"Is this movie liked by people?
+
+{sentence}"
+sentiment_analysis,aspect,passive,review_makes_think,"Are people made to think by this review that this is a good movie?
+
+{sentence}"
+sentiment_analysis,modality,can,find,"Can you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,modality,can,good_movie,"Can this be a good movie?
+
+{sentence}"
+sentiment_analysis,modality,can,label,"Can the label for this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,can,like_movie,"Can you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,can,make_think,"Can this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,modality,can,people,"Can this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,modality,can,pos,"Can this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,can,want_watch,"Can you want to watch this movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,could,find,"Could you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,modality,could,good_movie,"Could this be a good movie?
+
+{sentence}"
+sentiment_analysis,modality,could,label,"Could the label for this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,could,like_movie,"Could you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,could,make_think,"Could this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,modality,could,people,"Could this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,modality,could,pos,"Could this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,could,want_watch,"Could you want to watch this movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,may,find,"May you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,modality,may,good_movie,"May this be a good movie?
+
+{sentence}"
+sentiment_analysis,modality,may,label,"May the label for this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,may,like_movie,"May you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,may,make_think,"May this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,modality,may,people,"May this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,modality,may,pos,"May this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,may,want_watch,"May you want to watch this movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,might,find,"Might you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,modality,might,good_movie,"Might this be a good movie?
+
+{sentence}"
+sentiment_analysis,modality,might,label,"Might the label for this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,might,like_movie,"Might you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,might,make_think,"Might this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,modality,might,people,"Might this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,modality,might,pos,"Might this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,might,want_watch,"Might you want to watch this movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,must,find,"Must you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,modality,must,good_movie,"Must this be a good movie?
+
+{sentence}"
+sentiment_analysis,modality,must,label,"Must the label for this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,must,like_movie,"Must you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,must,make_think,"Must this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,modality,must,people,"Must this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,modality,must,pos,"Must this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,must,want_watch,"Must you want to watch this movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,should,find,"Should you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,modality,should,good_movie,"Should this be a good movie?
+
+{sentence}"
+sentiment_analysis,modality,should,label,"Should the label for this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,should,like_movie,"Should you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,should,make_think,"Should this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,modality,should,people,"Should this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,modality,should,pos,"Should this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,should,want_watch,"Should you want to watch this movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,would,find,"Would you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,modality,would,good_movie,"Would this be a good movie?
+
+{sentence}"
+sentiment_analysis,modality,would,label,"Would the label for this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,would,like_movie,"Would you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,modality,would,make_think,"Would this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,modality,would,people,"Would this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,modality,would,pos,"Would this movie review be positive?
+
+{sentence}"
+sentiment_analysis,modality,would,want_watch,"Would you want to watch this movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,mood,imperative,find_review_pos,"Tell me if you find this movie review positive.
+
+{sentence}"
+sentiment_analysis,mood,imperative,good_movie,"Tell me if this is a good movie.
+
+{sentence}"
+sentiment_analysis,mood,imperative,label_pos,"Tell me if the label for this movie review is positive.
+
+{sentence}"
+sentiment_analysis,mood,imperative,like_movie,"Tell me if you like the movie based on this movie review.
+
+{sentence}"
+sentiment_analysis,mood,imperative,review_makes_think,"Tell me if this movie review makes people think this is a good movie.
+
+{sentence}"
+sentiment_analysis,mood,imperative,review_makes_watch,"Tell me if this movie review makes people want to watch this movie.
+
+{sentence}"
+sentiment_analysis,mood,imperative,review_pos,"Tell me if this movie review is positive.
+
+{sentence}"
+sentiment_analysis,mood,imperative,watch_movie,"Tell me if you want to watch this movie based on this movie review.
+
+{sentence}"
+sentiment_analysis,mood,indicative,find_review_pos,"You find this movie review positive.
+
+{sentence}"
+sentiment_analysis,mood,indicative,good_movie,"This is a good movie.
+
+{sentence}"
+sentiment_analysis,mood,indicative,label_pos,"The label for this movie review is positive.
+
+{sentence}"
+sentiment_analysis,mood,indicative,like_movie,"You like the movie based on this movie review.
+
+{sentence}"
+sentiment_analysis,mood,indicative,review_makes_think,"This movie review makes people think this is a good movie.
+
+{sentence}"
+sentiment_analysis,mood,indicative,review_makes_watch,"This movie review makes people want to watch this movie.
+
+{sentence}"
+sentiment_analysis,mood,indicative,review_pos,"This movie review is positive.
+
+{sentence}"
+sentiment_analysis,mood,indicative,watch_movie,"You want to watch this movie based on this movie review.
+
+{sentence}"
+sentiment_analysis,mood,interrogative,find_review_pos,"Do you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,mood,interrogative,good_movie,"Is this a good movie?
+
+{sentence}"
+sentiment_analysis,mood,interrogative,label_pos,"Is the label for this movie review positive?
+
+{sentence}"
+sentiment_analysis,mood,interrogative,like_movie,"Do you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,mood,interrogative,review_makes_think,"Does this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,mood,interrogative,review_makes_watch,"Does this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,mood,interrogative,review_pos,"Is this movie review positive?
+
+{sentence}"
+sentiment_analysis,mood,interrogative,watch_movie,"Do you want to watch this movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,null,null,null_false_true,{sentence}
+sentiment_analysis,null,null,null_negative_positive,{sentence}
+sentiment_analysis,null,null,null_no_yes,{sentence}
+sentiment_analysis,synonymy,interrogative_appraisal,appraisal_makes_think,"Does this movie appraisal make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_appraisal,appraisal_makes_watch,"Does this movie appraisal make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_appraisal,appraisal_pos,"Is this movie appraisal positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_appraisal,find_appraisal_pos,"Do you find this movie appraisal positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_appraisal,label_pos,"Is the label for this movie appraisal positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_appraisal,like_movie,"Do you like the movie based on this movie appraisal?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_appraisal,watch_movie,"Do you want to watch this movie based on this movie appraisal?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_commentary,commentary_makes_think,"Does this movie commentary make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_commentary,commentary_makes_watch,"Does this movie commentary make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_commentary,commentary_pos,"Is this movie commentary positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_commentary,find_commentary_pos,"Do you find this movie commentary positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_commentary,label_pos,"Is the label for this movie commentary positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_commentary,like_movie,"Do you like the movie based on this movie commentary?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_commentary,watch_movie,"Do you want to watch this movie based on this movie commentary?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_critique,critique_makes_think,"Does this movie critique make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_critique,critique_makes_watch,"Does this movie critique make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_critique,critique_pos,"Is this movie critique positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_critique,find_critique_pos,"Do you find this movie critique positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_critique,label_pos,"Is the label for this movie critique positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_critique,like_movie,"Do you like the movie based on this movie critique?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_critique,watch_movie,"Do you want to watch this movie based on this movie critique?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_evaluation,evaluation_makes_think,"Does this movie evaluation make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_evaluation,evaluation_makes_watch,"Does this movie evaluation make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_evaluation,evaluation_pos,"Is this movie evaluation positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_evaluation,find_evaluation_pos,"Do you find this movie evaluation positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_evaluation,label_pos,"Is the label for this movie evaluation positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_evaluation,like_movie,"Do you like the movie based on this movie evaluation?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_evaluation,watch_movie,"Do you want to watch this movie based on this movie evaluation?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_review,find_review_pos,"Do you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_review,label_pos,"Is the label for this movie review positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_review,like_movie,"Do you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_review,review_makes_think,"Does this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_review,review_makes_watch,"Does this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_review,review_pos,"Is this movie review positive?
+
+{sentence}"
+sentiment_analysis,synonymy,interrogative_review,watch_movie,"Do you want to watch this movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,tense,future,find_review_pos,"Will you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,tense,future,good_movie,"Will this be a good movie?
+
+{sentence}"
+sentiment_analysis,tense,future,label_pos,"Will the label for this movie review be positive?
+
+{sentence}"
+sentiment_analysis,tense,future,like_movie,"Will you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,tense,future,review_makes_think,"Will this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,tense,future,review_makes_watch,"Will this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,tense,future,review_pos,"Will this movie review be positive?
+
+{sentence}"
+sentiment_analysis,tense,future,watch_movie,"Will you want to watch this movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,tense,past,find_review_pos,"Did you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,tense,past,good_movie,"Was this a good movie?
+
+{sentence}"
+sentiment_analysis,tense,past,label_pos,"Was the label for this movie review positive?
+
+{sentence}"
+sentiment_analysis,tense,past,like_movie,"Did you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,tense,past,review_makes_think,"Did this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,tense,past,review_makes_watch,"Did this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,tense,past,review_pos,"Was this movie review positive?
+
+{sentence}"
+sentiment_analysis,tense,past,watch_movie,"Did you want to watch this movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,tense,present,find_review_pos,"Do you find this movie review positive?
+
+{sentence}"
+sentiment_analysis,tense,present,good_movie,"Is this a good movie?
+
+{sentence}"
+sentiment_analysis,tense,present,label_pos,"Is the label for this movie review positive?
+
+{sentence}"
+sentiment_analysis,tense,present,like_movie,"Do you like the movie based on this movie review?
+
+{sentence}"
+sentiment_analysis,tense,present,review_makes_think,"Does this movie review make people think this is a good movie?
+
+{sentence}"
+sentiment_analysis,tense,present,review_makes_watch,"Does this movie review make people want to watch this movie?
+
+{sentence}"
+sentiment_analysis,tense,present,review_pos,"Is this movie review positive?
+
+{sentence}"
+sentiment_analysis,tense,present,watch_movie,"Do you want to watch this movie based on this movie review?
+
+{sentence}"
+question_answering,aspect,active,aq,"{passage}
+Question: {question}? Could you answer the question?"
+question_answering,aspect,active,best,"{passage}
+Question: {question}? Could you choose the best answer to the question?"
+question_answering,aspect,active,choose,"{passage}
+Question: {question}? Which answer do you choose?"
+question_answering,aspect,active,give,"{passage}
+Question: {question}? Could you give me the correct answer?"
+question_answering,aspect,active,infer,"{passage}
+Question: {question}? Could you infer the correct answer?"
+question_answering,aspect,active,pick,"{passage}
+Question: {question}? Could you pick the correct answer?"
+question_answering,aspect,active,select,"{passage}
+Question: {question}? Could you select the most suitable answer?"
+question_answering,aspect,active,solve,"{passage}
+Question: {question}? Could you solve the question by choosing the correct answer?"
+question_answering,aspect,active,tell,"{passage}
+Question: {question}? Could you tell me which answer is correct?"
+question_answering,aspect,active,think,"{passage}
+Question: {question}? What do you think is the correct answer?"
+question_answering,aspect,passive,aq,"{passage}
+Question: {question}? Could the question be answered?"
+question_answering,aspect,passive,best,"{passage}
+Question: {question}? Could the best answer to the question be chosen?"
+question_answering,aspect,passive,choose,"{passage}
+Question: {question}? Which answer could be chosen?"
+question_answering,aspect,passive,give,"{passage}
+Question: {question}? Could the correct answer be given?"
+question_answering,aspect,passive,infer,"{passage}
+Question: {question}? Could the correct answer be inferred?"
+question_answering,aspect,passive,pick,"{passage}
+Question: {question}? Could the correct answer be picked?"
+question_answering,aspect,passive,select,"{passage}
+Question: {question}? Could the most suitable answer be selected?"
+question_answering,aspect,passive,solve,"{passage}
+Question: {question}? Could the question be solved by choosing the correct answer?"
+question_answering,aspect,passive,tell,"{passage}
+Question: {question}? Could it be told which answer is correct?"
+question_answering,aspect,passive,think,"{passage}
+Question: {question}? What is thought to be the correct answer?"
+question_answering,modality,can,choose,"{passage}
+Question: {question}? Which answer can you choose?"
+question_answering,modality,can,correct,"{passage}
+Question: {question}? Which answer can be correct?"
+question_answering,modality,can,correct2,"{passage}
+Question: {question}? Which can be the correct answer to the question?"
+question_answering,modality,can,think,"{passage}
+Question: {question}? What do you think can be the correct answer?"
+question_answering,modality,could,choose,"{passage}
+Question: {question}? Which answer could you choose?"
+question_answering,modality,could,correct,"{passage}
+Question: {question}? Which answer could be correct?"
+question_answering,modality,could,correct2,"{passage}
+Question: {question}? Which could be the correct answer to the question?"
+question_answering,modality,could,think,"{passage}
+Question: {question}? What do you think could be the correct answer?"
+question_answering,modality,may,choose,"{passage}
+Question: {question}? Which answer may you choose?"
+question_answering,modality,may,correct,"{passage}
+Question: {question}? Which answer may be correct?"
+question_answering,modality,may,correct2,"{passage}
+Question: {question}? Which may be the correct answer to the question?"
+question_answering,modality,may,think,"{passage}
+Question: {question}? What do you think may be the correct answer?"
+question_answering,modality,might,choose,"{passage}
+Question: {question}? Which answer might you choose?"
+question_answering,modality,might,correct,"{passage}
+Question: {question}? Which answer might be correct?"
+question_answering,modality,might,correct2,"{passage}
+Question: {question}? Which might be the correct answer to the question?"
+question_answering,modality,might,think,"{passage}
+Question: {question}? What do you think might be the correct answer?"
+question_answering,modality,must,choose,"{passage}
+Question: {question}? Which answer must you choose?"
+question_answering,modality,must,correct,"{passage}
+Question: {question}? Which answer must be correct?"
+question_answering,modality,must,correct2,"{passage}
+Question: {question}? Which must be the correct answer to the question?"
+question_answering,modality,must,think,"{passage}
+Question: {question}? What do you think must be the correct answer?"
+question_answering,modality,should,choose,"{passage}
+Question: {question}? Which answer should you choose?"
+question_answering,modality,should,correct,"{passage}
+Question: {question}? Which answer should be correct?"
+question_answering,modality,should,correct2,"{passage}
+Question: {question}? Which should be the correct answer to the question?"
+question_answering,modality,should,think,"{passage}
+Question: {question}? What do you think should be the correct answer?"
+question_answering,modality,would,choose,"{passage}
+Question: {question}? Which answer would you choose?"
+question_answering,modality,would,correct,"{passage}
+Question: {question}? Which answer would be correct?"
+question_answering,modality,would,correct2,"{passage}
+Question: {question}? Which would be the correct answer to the question?"
+question_answering,modality,would,think,"{passage}
+Question: {question}? What do you think would be the correct answer?"
+question_answering,mood,imperative,aq,"{passage}
+Question: {question}? Answer the question."
+question_answering,mood,imperative,best,"{passage}
+Question: {question}? Choose the best answer to the question."
+question_answering,mood,imperative,choose,"{passage}
+Question: {question}? Tell me which answer you choose."
+question_answering,mood,imperative,correct,"{passage}
+Question: {question}? Tell me which answer is correct."
+question_answering,mood,imperative,correct2,"{passage}
+Question: {question}? Tell me which is the correct answer to the question."
+question_answering,mood,imperative,give,"{passage}
+Question: {question}? Give me the correct answer."
+question_answering,mood,imperative,infer,"{passage}
+Question: {question}? Infer the correct answer."
+question_answering,mood,imperative,pick,"{passage}
+Question: {question}? Pick the correct answer."
+question_answering,mood,imperative,select,"{passage}
+Question: {question}? Select the most suitable answer."
+question_answering,mood,imperative,solve,"{passage}
+Question: {question}? Solve the question by choosing the correct answer."
+question_answering,mood,imperative,tell,"{passage}
+Question: {question}? Tell me which answer is correct."
+question_answering,mood,imperative,think,"{passage}
+Question: {question}? Tell me what you think is the correct answer."
+question_answering,mood,indicative,aq,"{passage}
+Question: {question}? You answer the question:"
+question_answering,mood,indicative,best,"{passage}
+Question: {question}? You choose the best answer to the question:"
+question_answering,mood,indicative,choose,"{passage}
+Question: {question}? You choose this answer:"
+question_answering,mood,indicative,correct,"{passage}
+Question: {question}? This answer is correct:"
+question_answering,mood,indicative,correct2,"{passage}
+Question: {question}? This is the correct answer to the question:"
+question_answering,mood,indicative,give,"{passage}
+Question: {question}? You give me the correct answer:"
+question_answering,mood,indicative,infer,"{passage}
+Question: {question}? You infer the correct answer:"
+question_answering,mood,indicative,pick,"{passage}
+Question: {question}? You pick the correct answer:"
+question_answering,mood,indicative,select,"{passage}
+Question: {question}? You select the most suitable answer:"
+question_answering,mood,indicative,solve,"{passage}
+Question: {question}? You solve the question by choosing the correct answer:"
+question_answering,mood,indicative,tell,"{passage}
+Question: {question}? You tell me which answer is correct:"
+question_answering,mood,indicative,think,"{passage}
+Question: {question}? You think this is the correct answer:"
+question_answering,mood,interrogative,aq,"{passage}
+Question: {question}? Could you answer the question?"
+question_answering,mood,interrogative,best,"{passage}
+Question: {question}? Could you choose the best answer to the question?"
+question_answering,mood,interrogative,choose,"{passage}
+Question: {question}? Which answer do you choose?"
+question_answering,mood,interrogative,correct,"{passage}
+Question: {question}? Which answer is correct?"
+question_answering,mood,interrogative,correct2,"{passage}
+Question: {question}? Which is the correct answer to the question?"
+question_answering,mood,interrogative,give,"{passage}
+Question: {question}? Could you give me the correct answer?"
+question_answering,mood,interrogative,infer,"{passage}
+Question: {question}? Could you infer the correct answer?"
+question_answering,mood,interrogative,pick,"{passage}
+Question: {question}? Could you pick the correct answer?"
+question_answering,mood,interrogative,select,"{passage}
+Question: {question}? Could you select the most suitable answer?"
+question_answering,mood,interrogative,solve,"{passage}
+Question: {question}? Could you solve the question by choosing the correct answer?"
+question_answering,mood,interrogative,tell,"{passage}
+Question: {question}? Could you tell me which answer is correct?"
+question_answering,mood,interrogative,think,"{passage}
+Question: {question}? What do you think is the correct answer?"
+question_answering,null,null,nullQ,"{passage}
+Question: {question}?"
+question_answering,null,null,nullnoQ,"{passage}
+{question}?"
+question_answering,synonymy,interrogative_answer,best,"{passage}
+Question: {question}? Could you choose the best answer to the question?"
+question_answering,synonymy,interrogative_answer,choose,"{passage}
+Question: {question}? Which answer do you choose?"
+question_answering,synonymy,interrogative_answer,correct,"{passage}
+Question: {question}? Which answer is correct?"
+question_answering,synonymy,interrogative_answer,correct2,"{passage}
+Question: {question}? Which is the correct answer to the question?"
+question_answering,synonymy,interrogative_answer,give,"{passage}
+Question: {question}? Could you give me the correct answer?"
+question_answering,synonymy,interrogative_answer,infer,"{passage}
+Question: {question}? Could you infer the correct answer?"
+question_answering,synonymy,interrogative_answer,pick,"{passage}
+Question: {question}? Could you pick the correct answer?"
+question_answering,synonymy,interrogative_answer,select,"{passage}
+Question: {question}? Could you select the most suitable answer?"
+question_answering,synonymy,interrogative_answer,solve,"{passage}
+Question: {question}? Could you solve the question by choosing the correct answer?"
+question_answering,synonymy,interrogative_answer,tell,"{passage}
+Question: {question}? Could you tell me which answer is correct?"
+question_answering,synonymy,interrogative_answer,think,"{passage}
+Question: {question}? What do you think is the correct answer?"
+question_answering,synonymy,interrogative_appropriate,best,"{passage}
+Question: {question}? Could you choose the appropriate answer to the question?"
+question_answering,synonymy,interrogative_appropriate,correct,"{passage}
+Question: {question}? Which answer is appropriate?"
+question_answering,synonymy,interrogative_appropriate,correct2,"{passage}
+Question: {question}? Which is the appropriate answer to the question?"
+question_answering,synonymy,interrogative_appropriate,give,"{passage}
+Question: {question}? Could you give me the appropriate answer?"
+question_answering,synonymy,interrogative_appropriate,infer,"{passage}
+Question: {question}? Could you infer the appropriate answer?"
+question_answering,synonymy,interrogative_appropriate,pick,"{passage}
+Question: {question}? Could you pick the appropriate answer?"
+question_answering,synonymy,interrogative_appropriate,select,"{passage}
+Question: {question}? Could you select the appropriate answer?"
+question_answering,synonymy,interrogative_appropriate,solve,"{passage}
+Question: {question}? Could you solve the question by choosing the appropriate answer?"
+question_answering,synonymy,interrogative_appropriate,tell,"{passage}
+Question: {question}? Could you tell me which answer is appropriate?"
+question_answering,synonymy,interrogative_appropriate,think,"{passage}
+Question: {question}? What do you think is the appropriate answer?"
+question_answering,synonymy,interrogative_correct,best,"{passage}
+Question: {question}? Could you choose the correct answer to the question?"
+question_answering,synonymy,interrogative_correct,correct,"{passage}
+Question: {question}? Which answer is correct?"
+question_answering,synonymy,interrogative_correct,correct2,"{passage}
+Question: {question}? Which is the correct answer to the question?"
+question_answering,synonymy,interrogative_correct,give,"{passage}
+Question: {question}? Could you give me the correct answer?"
+question_answering,synonymy,interrogative_correct,infer,"{passage}
+Question: {question}? Could you infer the correct answer?"
+question_answering,synonymy,interrogative_correct,pick,"{passage}
+Question: {question}? Could you pick the correct answer?"
+question_answering,synonymy,interrogative_correct,select,"{passage}
+Question: {question}? Could you select the correct answer?"
+question_answering,synonymy,interrogative_correct,solve,"{passage}
+Question: {question}? Could you solve the question by choosing the correct answer?"
+question_answering,synonymy,interrogative_correct,tell,"{passage}
+Question: {question}? Could you tell me which answer is correct?"
+question_answering,synonymy,interrogative_correct,think,"{passage}
+Question: {question}? What do you think is the correct answer?"
+question_answering,synonymy,interrogative_proper,best,"{passage}
+Question: {question}? Could you choose the proper answer to the question?"
+question_answering,synonymy,interrogative_proper,correct,"{passage}
+Question: {question}? Which answer is proper?"
+question_answering,synonymy,interrogative_proper,correct2,"{passage}
+Question: {question}? Which is the proper answer to the question?"
+question_answering,synonymy,interrogative_proper,give,"{passage}
+Question: {question}? Could you give me the proper answer?"
+question_answering,synonymy,interrogative_proper,infer,"{passage}
+Question: {question}? Could you infer the proper answer?"
+question_answering,synonymy,interrogative_proper,pick,"{passage}
+Question: {question}? Could you pick the proper answer?"
+question_answering,synonymy,interrogative_proper,select,"{passage}
+Question: {question}? Could you select the proper answer?"
+question_answering,synonymy,interrogative_proper,solve,"{passage}
+Question: {question}? Could you solve the question by choosing the proper answer?"
+question_answering,synonymy,interrogative_proper,tell,"{passage}
+Question: {question}? Could you tell me which answer is proper?"
+question_answering,synonymy,interrogative_proper,think,"{passage}
+Question: {question}? What do you think is the proper answer?"
+question_answering,synonymy,interrogative_reply,best,"{passage}
+Question: {question}? Could you choose the best reply to the question?"
+question_answering,synonymy,interrogative_reply,choose,"{passage}
+Question: {question}? Which reply do you choose?"
+question_answering,synonymy,interrogative_reply,correct,"{passage}
+Question: {question}? Which reply is correct?"
+question_answering,synonymy,interrogative_reply,correct2,"{passage}
+Question: {question}? Which is the correct reply to the question?"
+question_answering,synonymy,interrogative_reply,give,"{passage}
+Question: {question}? Could you give me the correct reply?"
+question_answering,synonymy,interrogative_reply,infer,"{passage}
+Question: {question}? Could you infer the correct reply?"
+question_answering,synonymy,interrogative_reply,pick,"{passage}
+Question: {question}? Could you pick the correct reply?"
+question_answering,synonymy,interrogative_reply,select,"{passage}
+Question: {question}? Could you select the most suitable reply?"
+question_answering,synonymy,interrogative_reply,solve,"{passage}
+Question: {question}? Could you solve the question by choosing the correct reply?"
+question_answering,synonymy,interrogative_reply,tell,"{passage}
+Question: {question}? Could you tell me which reply is correct?"
+question_answering,synonymy,interrogative_reply,think,"{passage}
+Question: {question}? What do you think is the correct reply?"
+question_answering,synonymy,interrogative_response,best,"{passage}
+Question: {question}? Could you choose the best response to the question?"
+question_answering,synonymy,interrogative_response,choose,"{passage}
+Question: {question}? Which response do you choose?"
+question_answering,synonymy,interrogative_response,correct,"{passage}
+Question: {question}? Which response is correct?"
+question_answering,synonymy,interrogative_response,correct2,"{passage}
+Question: {question}? Which is the correct response to the question?"
+question_answering,synonymy,interrogative_response,give,"{passage}
+Question: {question}? Could you give me the correct response?"
+question_answering,synonymy,interrogative_response,infer,"{passage}
+Question: {question}? Could you infer the correct response?"
+question_answering,synonymy,interrogative_response,pick,"{passage}
+Question: {question}? Could you pick the correct response?"
+question_answering,synonymy,interrogative_response,select,"{passage}
+Question: {question}? Could you select the most suitable response?"
+question_answering,synonymy,interrogative_response,solve,"{passage}
+Question: {question}? Could you solve the question by choosing the correct response?"
+question_answering,synonymy,interrogative_response,tell,"{passage}
+Question: {question}? Could you tell me which response is correct?"
+question_answering,synonymy,interrogative_response,think,"{passage}
+Question: {question}? What do you think is the correct response?"
+question_answering,synonymy,interrogative_right,best,"{passage}
+Question: {question}? Could you choose the right answer to the question?"
+question_answering,synonymy,interrogative_right,correct,"{passage}
+Question: {question}? Which answer is right?"
+question_answering,synonymy,interrogative_right,correct2,"{passage}
+Question: {question}? Which is the right answer to the question?"
+question_answering,synonymy,interrogative_right,give,"{passage}
+Question: {question}? Could you give me the right answer?"
+question_answering,synonymy,interrogative_right,infer,"{passage}
+Question: {question}? Could you infer the right answer?"
+question_answering,synonymy,interrogative_right,pick,"{passage}
+Question: {question}? Could you pick the right answer?"
+question_answering,synonymy,interrogative_right,select,"{passage}
+Question: {question}? Could you select the right answer?"
+question_answering,synonymy,interrogative_right,solve,"{passage}
+Question: {question}? Could you solve the question by choosing the right answer?"
+question_answering,synonymy,interrogative_right,tell,"{passage}
+Question: {question}? Could you tell me which answer is right?"
+question_answering,synonymy,interrogative_right,think,"{passage}
+Question: {question}? What do you think is the right answer?"
+question_answering,synonymy,interrogative_solution,best,"{passage}
+Question: {question}? Could you choose the best solution to the question?"
+question_answering,synonymy,interrogative_solution,choose,"{passage}
+Question: {question}? Which solution do you choose?"
+question_answering,synonymy,interrogative_solution,correct,"{passage}
+Question: {question}? Which solution is correct?"
+question_answering,synonymy,interrogative_solution,correct2,"{passage}
+Question: {question}? Which is the correct solution to the question?"
+question_answering,synonymy,interrogative_solution,give,"{passage}
+Question: {question}? Could you give me the correct solution?"
+question_answering,synonymy,interrogative_solution,infer,"{passage}
+Question: {question}? Could you infer the correct solution?"
+question_answering,synonymy,interrogative_solution,pick,"{passage}
+Question: {question}? Could you pick the correct solution?"
+question_answering,synonymy,interrogative_solution,select,"{passage}
+Question: {question}? Could you select the most suitable solution?"
+question_answering,synonymy,interrogative_solution,solve,"{passage}
+Question: {question}? Could you solve the question by choosing the correct solution?"
+question_answering,synonymy,interrogative_solution,tell,"{passage}
+Question: {question}? Could you tell me which solution is correct?"
+question_answering,synonymy,interrogative_solution,think,"{passage}
+Question: {question}? What do you think is the correct solution?"
+question_answering,tense,future,aq,"{passage}
+Question: {question}? Will you answer the question?"
+question_answering,tense,future,best,"{passage}
+Question: {question}? Will you choose the best answer to the question?"
+question_answering,tense,future,choose,"{passage}
+Question: {question}? Which answer will you choose?"
+question_answering,tense,future,correct,"{passage}
+Question: {question}? Which answer will be correct?"
+question_answering,tense,future,correct2,"{passage}
+Question: {question}? Which will be the correct answer to the question?"
+question_answering,tense,future,give,"{passage}
+Question: {question}? Will you give me the correct answer?"
+question_answering,tense,future,infer,"{passage}
+Question: {question}? Will you infer the correct answer?"
+question_answering,tense,future,pick,"{passage}
+Question: {question}? Will you pick the correct answer?"
+question_answering,tense,future,select,"{passage}
+Question: {question}? Will you select the most suitable answer?"
+question_answering,tense,future,solve,"{passage}
+Question: {question}? Will you solve the question by choosing the correct answer?"
+question_answering,tense,future,tell,"{passage}
+Question: {question}? Will you tell me which answer will be correct?"
+question_answering,tense,future,think,"{passage}
+Question: {question}? What will you think will be the correct answer?"
+question_answering,tense,past,aq,"{passage}
+Question: {question}? Did you answer the question?"
+question_answering,tense,past,best,"{passage}
+Question: {question}? Did you choose the best answer to the question?"
+question_answering,tense,past,choose,"{passage}
+Question: {question}? Which answer did you choose?"
+question_answering,tense,past,correct,"{passage}
+Question: {question}? Which answer was correct?"
+question_answering,tense,past,correct2,"{passage}
+Question: {question}? Which was the correct answer to the question?"
+question_answering,tense,past,give,"{passage}
+Question: {question}? Did you give me the correct answer?"
+question_answering,tense,past,infer,"{passage}
+Question: {question}? Did you infer the correct answer?"
+question_answering,tense,past,pick,"{passage}
+Question: {question}? Did you pick the correct answer?"
+question_answering,tense,past,select,"{passage}
+Question: {question}? Did you select the most suitable answer?"
+question_answering,tense,past,solve,"{passage}
+Question: {question}? Did you solve the question by choosing the correct answer?"
+question_answering,tense,past,tell,"{passage}
+Question: {question}? Did you tell me which answer was correct?"
+question_answering,tense,past,think,"{passage}
+Question: {question}? What did you think was the correct answer?"
+question_answering,tense,present,aq,"{passage}
+Question: {question}? Do you answer the question?"
+question_answering,tense,present,best,"{passage}
+Question: {question}? Do you choose the best answer to the question?"
+question_answering,tense,present,choose,"{passage}
+Question: {question}? Which answer do you choose?"
+question_answering,tense,present,correct,"{passage}
+Question: {question}? Which answer is correct?"
+question_answering,tense,present,correct2,"{passage}
+Question: {question}? Which is the correct answer to the question?"
+question_answering,tense,present,give,"{passage}
+Question: {question}? Do you give me the correct answer?"
+question_answering,tense,present,infer,"{passage}
+Question: {question}? Do you infer the correct answer?"
+question_answering,tense,present,pick,"{passage}
+Question: {question}? Do you pick the correct answer?"
+question_answering,tense,present,select,"{passage}
+Question: {question}? Do you select the most suitable answer?"
+question_answering,tense,present,solve,"{passage}
+Question: {question}? Do you solve the question by choosing the correct answer?"
+question_answering,tense,present,tell,"{passage}
+Question: {question}? Do you tell me which answer is correct?"
+question_answering,tense,present,think,"{passage}
+Question: {question}? What do you think is the correct answer?"
+natural_language_inference,aspect,active,assume,"Given ""{premise}"" can you assume that ""{hypothesis}""?"
+natural_language_inference,aspect,active,conclude,"Given ""{premise}"" can you conclude that ""{hypothesis}""?"
+natural_language_inference,aspect,active,deduce,"Given ""{premise}"" can you deduce that ""{hypothesis}""?"
+natural_language_inference,aspect,active,follow,"Given ""{hypothesis}"" does it follow that ""{premise}""?"
+natural_language_inference,aspect,active,guess,"Given ""{premise}"" can you guess that ""{hypothesis}""?"
+natural_language_inference,aspect,active,implies,"Given ""{premise}"" does this imply that ""{hypothesis}""?"
+natural_language_inference,aspect,active,infer,"Given {premis} can you infer that ""{hypothesis}""?"
+natural_language_inference,aspect,active,justify,"Given ""{premise}"" can you justifiedly say that ""{hypothesis}""?"
+natural_language_inference,aspect,active,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"". Can you label this as entailment?"
+natural_language_inference,aspect,active,reason,"Given ""{premise}"" can you reason that ""{hypothesis}""?"
+natural_language_inference,aspect,passive,assume,"Given ""{premise}"" can it be assumed that ""{hypothesis}""?"
+natural_language_inference,aspect,passive,conclude,"Given ""{premise}"" can it be concluded that ""{hypothesis}""?"
+natural_language_inference,aspect,passive,deduce,"Given ""{premise}"" can it be deduced that ""{hypothesis}""?"
+natural_language_inference,aspect,passive,follow,"Given ""{hypothesis}"" is it followed that ""{premise}""?"
+natural_language_inference,aspect,passive,guess,"Given ""{premise}"" can it be guessed that ""{hypothesis}""?"
+natural_language_inference,aspect,passive,implies,"Given ""{premise}"" is it implied that ""{hypothesis}""?"
+natural_language_inference,aspect,passive,infer,"Given {premis} can it be inferred that ""{hypothesis}""?"
+natural_language_inference,aspect,passive,justify,"Given ""{premise}"" can it justifiedly be said that ""{hypothesis}""?"
+natural_language_inference,aspect,passive,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"". Can this be labelled as entailment?"
+natural_language_inference,aspect,passive,reason,"Given ""{premise}"" can it be reasoned that ""{hypothesis}""?"
+natural_language_inference,modality,can,assume,"Given ""{premise}"" can you assume that ""{hypothesis}""?"
+natural_language_inference,modality,can,claim_correct,"Given ""{premise}"" can the claim ""{hypothesis}"" be correct?"
+natural_language_inference,modality,can,deduce,"Given ""{premise}"" can you deduce that ""{hypothesis}""?"
+natural_language_inference,modality,can,follow,"Given ""{premise}"" can it follow that ""{hypothesis}""?"
+natural_language_inference,modality,can,implies,"Given ""{premise}"" can this imply that ""{hypothesis}""?"
+natural_language_inference,modality,can,infer,"Given ""{premise}"" can you infer that ""{hypothesis}""?"
+natural_language_inference,modality,can,justified,"Given ""{premise}"" can you be justified in saying that ""{hypothesis}""?"
+natural_language_inference,modality,can,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" Can the label be entailment?"
+natural_language_inference,modality,can,reason,"Given ""{premise}"" can you reason that ""{hypothesis}""?"
+natural_language_inference,modality,can,relationship_entailment,"Can the relationship between ""{premise}"" and ""{hypothesis}"" be entailment?"
+natural_language_inference,modality,can,true,"Given ""{premise}"" can it be true that ""{hypothesis}""?"
+natural_language_inference,modality,can,williams,"""{premise}"" Using only the above description and what you know about the world can ""{hypothesis}"" be correct?"
+natural_language_inference,modality,could,assume,"Given ""{premise}"" could you assume that ""{hypothesis}""?"
+natural_language_inference,modality,could,claim_correct,"Given ""{premise}"" could the claim ""{hypothesis}"" be correct?"
+natural_language_inference,modality,could,deduce,"Given ""{premise}"" could you deduce that ""{hypothesis}""?"
+natural_language_inference,modality,could,follow,"Given ""{premise}"" could it follow that ""{hypothesis}""?"
+natural_language_inference,modality,could,implies,"Given ""{premise}"" could this imply that ""{hypothesis}""?"
+natural_language_inference,modality,could,infer,"Given ""{premise}"" could you infer that ""{hypothesis}""?"
+natural_language_inference,modality,could,justified,"Given ""{premise}"" could you be justified in saying that ""{hypothesis}""?"
+natural_language_inference,modality,could,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" Could the label be entailment?"
+natural_language_inference,modality,could,reason,"Given ""{premise}"" could you reason that ""{hypothesis}""?"
+natural_language_inference,modality,could,relationship_entailment,"Could the relationship between ""{premise}"" and ""{hypothesis}"" be entailment?"
+natural_language_inference,modality,could,true,"Given ""{premise}"" could it be true that ""{hypothesis}""?"
+natural_language_inference,modality,could,williams,"""{premise}"" Using only the above description and what you know about the world could ""{hypothesis}"" be correct?"
+natural_language_inference,modality,may,assume,"Given ""{premise}"" may you assume that ""{hypothesis}""?"
+natural_language_inference,modality,may,claim_correct,"Given ""{premise}"" may the claim ""{hypothesis}"" be correct?"
+natural_language_inference,modality,may,deduce,"Given ""{premise}"" may you deduce that ""{hypothesis}""?"
+natural_language_inference,modality,may,follow,"Given ""{premise}"" may it follow that ""{hypothesis}""?"
+natural_language_inference,modality,may,implies,"Given ""{premise}"" may this imply that ""{hypothesis}""?"
+natural_language_inference,modality,may,infer,"Given ""{premise}"" may you infer that ""{hypothesis}""?"
+natural_language_inference,modality,may,justified,"Given ""{premise}"" may you be justified in saying that ""{hypothesis}""?"
+natural_language_inference,modality,may,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" May the label be entailment?"
+natural_language_inference,modality,may,reason,"Given ""{premise}"" may you reason that ""{hypothesis}""?"
+natural_language_inference,modality,may,relationship_entailment,"May the relationship between ""{premise}"" and ""{hypothesis}"" be entailment?"
+natural_language_inference,modality,may,true,"Given ""{premise}"" may it be true that ""{hypothesis}""?"
+natural_language_inference,modality,may,williams,"""{premise}"" Using only the above description and what you know about the world may ""{hypothesis}"" be correct?"
+natural_language_inference,modality,might,assume,"Given ""{premise}"" might you assume that ""{hypothesis}""?"
+natural_language_inference,modality,might,claim_correct,"Given ""{premise}"" might the claim ""{hypothesis}"" be correct?"
+natural_language_inference,modality,might,deduce,"Given ""{premise}"" might you deduce that ""{hypothesis}""?"
+natural_language_inference,modality,might,follow,"Given ""{premise}"" might it follow that ""{hypothesis}""?"
+natural_language_inference,modality,might,implies,"Given ""{premise}"" might this imply that ""{hypothesis}""?"
+natural_language_inference,modality,might,infer,"Given ""{premise}"" might you infer that ""{hypothesis}""?"
+natural_language_inference,modality,might,justified,"Given ""{premise}"" might you be justified in saying that ""{hypothesis}""?"
+natural_language_inference,modality,might,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" Might the label be entailment?"
+natural_language_inference,modality,might,reason,"Given ""{premise}"" might you reason that ""{hypothesis}""?"
+natural_language_inference,modality,might,relationship_entailment,"Might the relationship between ""{premise}"" and ""{hypothesis}"" be entailment?"
+natural_language_inference,modality,might,true,"Given ""{premise}"" might it be true that ""{hypothesis}""?"
+natural_language_inference,modality,might,williams,"""{premise}"" Using only the above description and what you know about the world might ""{hypothesis}"" be correct?"
+natural_language_inference,modality,must,assume,"Given ""{premise}"" must you assume that ""{hypothesis}""?"
+natural_language_inference,modality,must,claim_correct,"Given ""{premise}"" must the claim ""{hypothesis}"" be correct?"
+natural_language_inference,modality,must,deduce,"Given ""{premise}"" must you deduce that ""{hypothesis}""?"
+natural_language_inference,modality,must,follow,"Given ""{premise}"" must it follow that ""{hypothesis}""?"
+natural_language_inference,modality,must,implies,"Given ""{premise}"" must this imply that ""{hypothesis}""?"
+natural_language_inference,modality,must,infer,"Given ""{premise}"" must you infer that ""{hypothesis}""?"
+natural_language_inference,modality,must,justified,"Given ""{premise}"" must you be justified in saying that ""{hypothesis}""?"
+natural_language_inference,modality,must,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" Must the label be entailment?"
+natural_language_inference,modality,must,reason,"Given ""{premise}"" must you reason that ""{hypothesis}""?"
+natural_language_inference,modality,must,relationship_entailment,"Must the relationship between ""{premise}"" and ""{hypothesis}"" be entailment?"
+natural_language_inference,modality,must,true,"Given ""{premise}"" must it be true that ""{hypothesis}""?"
+natural_language_inference,modality,must,williams,"""{premise}"" Using only the above description and what you know about the world must ""{hypothesis}"" be correct?"
+natural_language_inference,modality,should,assume,"Given ""{premise}"" should you assume that ""{hypothesis}""?"
+natural_language_inference,modality,should,claim_correct,"Given ""{premise}"" should the claim ""{hypothesis}"" be correct?"
+natural_language_inference,modality,should,deduce,"Given ""{premise}"" should you deduce that ""{hypothesis}""?"
+natural_language_inference,modality,should,follow,"Given ""{premise}"" should it follow that ""{hypothesis}""?"
+natural_language_inference,modality,should,implies,"Given ""{premise}"" should this imply that ""{hypothesis}""?"
+natural_language_inference,modality,should,infer,"Given ""{premise}"" should you infer that ""{hypothesis}""?"
+natural_language_inference,modality,should,justified,"Given ""{premise}"" should you be justified in saying that ""{hypothesis}""?"
+natural_language_inference,modality,should,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" Should the label be entailment?"
+natural_language_inference,modality,should,reason,"Given ""{premise}"" should you reason that ""{hypothesis}""?"
+natural_language_inference,modality,should,relationship_entailment,"Should the relationship between ""{premise}"" and ""{hypothesis}"" be entailment?"
+natural_language_inference,modality,should,true,"Given ""{premise}"" should it be true that ""{hypothesis}""?"
+natural_language_inference,modality,should,williams,"""{premise}"" Using only the above description and what you know about the world should ""{hypothesis}"" be correct?"
+natural_language_inference,modality,would,assume,"Given ""{premise}"" would you assume that ""{hypothesis}""?"
+natural_language_inference,modality,would,claim_correct,"Given ""{premise}"" would the claim ""{hypothesis}"" be correct?"
+natural_language_inference,modality,would,deduce,"Given ""{premise}"" would you deduce that ""{hypothesis}""?"
+natural_language_inference,modality,would,follow,"Given ""{premise}"" would it follow that ""{hypothesis}""?"
+natural_language_inference,modality,would,implies,"Given ""{premise}"" would this imply that ""{hypothesis}""?"
+natural_language_inference,modality,would,infer,"Given ""{premise}"" would you infer that ""{hypothesis}""?"
+natural_language_inference,modality,would,justified,"Given ""{premise}"" would you be justified in saying that ""{hypothesis}""?"
+natural_language_inference,modality,would,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" Would the label be entailment?"
+natural_language_inference,modality,would,reason,"Given ""{premise}"" would you reason that ""{hypothesis}""?"
+natural_language_inference,modality,would,relationship_entailment,"Would the relationship between ""{premise}"" and ""{hypothesis}"" be entailment?"
+natural_language_inference,modality,would,true,"Given ""{premise}"" would it be true that ""{hypothesis}""?"
+natural_language_inference,modality,would,williams,"""{premise}"" Using only the above description and what you know about the world would ""{hypothesis}"" be correct?"
+natural_language_inference,mood,imperative,assume,"Given ""{premise}"" tell me if you can assume that ""{hypothesis}""."
+natural_language_inference,mood,imperative,claim_correct,"Given ""{premise}"" tell me if the claim ""{hypothesis}"" is correct."
+natural_language_inference,mood,imperative,deduce,"Given ""{premise}"" tell me if you can deduce that ""{hypothesis}""."
+natural_language_inference,mood,imperative,follow,"Given ""{premise}"" tell me if it follows that ""{hypothesis}""."
+natural_language_inference,mood,imperative,implies,"Given ""{premise}"" tell me if this implies that ""{hypothesis}""."
+natural_language_inference,mood,imperative,infer,"Given ""{premise}"" tell me if you can infer that ""{hypothesis}""."
+natural_language_inference,mood,imperative,justified,"Given ""{premise}"" tell me if you are justified in saying that ""{hypothesis}""."
+natural_language_inference,mood,imperative,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" Tell me if the label is entailment."
+natural_language_inference,mood,imperative,reason,"Given ""{premise}"" tell me if you can reason that ""{hypothesis}""."
+natural_language_inference,mood,imperative,relationship_entailment,"Tell me if the relationship between ""{premise}"" and ""{hypothesis}"" is entailment."
+natural_language_inference,mood,imperative,true,"Given ""{premise}"" tell me if it is true that ""{hypothesis}""."
+natural_language_inference,mood,imperative,williams,"""{premise}"" Using only the above description and what you know about the world tell me if ""{hypothesis}"" is correct."
+natural_language_inference,mood,indicative,assume,"Given ""{premise}"" you can assume that ""{hypothesis}""."
+natural_language_inference,mood,indicative,claim_correct,"Given ""{premise}"" the claim ""{hypothesis}"" is correct."
+natural_language_inference,mood,indicative,deduce,"Given ""{premise}"" you can deduce that ""{hypothesis}""."
+natural_language_inference,mood,indicative,follow,"Given ""{premise}"" it follows that ""{hypothesis}""."
+natural_language_inference,mood,indicative,implies,"Given ""{premise}"" this implies that ""{hypothesis}""."
+natural_language_inference,mood,indicative,infer,"Given ""{premise}"" you can infer that ""{hypothesis}""."
+natural_language_inference,mood,indicative,justified,"Given ""{premise}"" you are justified in saying that ""{hypothesis}""."
+natural_language_inference,mood,indicative,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" The label is entailment."
+natural_language_inference,mood,indicative,reason,"Given ""{premise}"" you can reason that ""{hypothesis}""."
+natural_language_inference,mood,indicative,relationship_entailment,"The relationship between ""{premise}"" and ""{hypothesis}"" is entailment."
+natural_language_inference,mood,indicative,true,"Given ""{premise}"" it is true that ""{hypothesis}""."
+natural_language_inference,mood,indicative,williams,"""{premise}"" Using only the above description and what you know about the world ""{hypothesis}"" is correct."
+natural_language_inference,mood,interrogative,assume,"Given ""{premise}"" can you assume that ""{hypothesis}""?"
+natural_language_inference,mood,interrogative,claim_correct,"Given ""{premise}"" is the claim ""{hypothesis}"" correct?"
+natural_language_inference,mood,interrogative,deduce,"Given ""{premise}"" can you deduce that ""{hypothesis}""?"
+natural_language_inference,mood,interrogative,follow,"Given ""{premise}"" does it follow that ""{hypothesis}""?"
+natural_language_inference,mood,interrogative,implies,"Given ""{premise}"" does this imply that ""{hypothesis}""?"
+natural_language_inference,mood,interrogative,infer,"Given ""{premise}"" can you infer that ""{hypothesis}""?"
+natural_language_inference,mood,interrogative,justified,"Given ""{premise}"" are you justified in saying that ""{hypothesis}""?"
+natural_language_inference,mood,interrogative,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" Is the label entailment?"
+natural_language_inference,mood,interrogative,reason,"Given ""{premise}"" can you reason that ""{hypothesis}""?"
+natural_language_inference,mood,interrogative,relationship_entailment,"Is the relationship between ""{premise}"" and ""{hypothesis}"" entailment?"
+natural_language_inference,mood,interrogative,true,"Given ""{premise}"" is it true that ""{hypothesis}""?"
+natural_language_inference,mood,interrogative,williams,"""{premise}"" Using only the above description and what you know about the world is ""{hypothesis}"" correct?"
+natural_language_inference,null,null,nullnoquotes,"{premise}
+{hypothesis}"
+natural_language_inference,null,null,nullquotes,"""{premise}""
+""{hypothesis}"""
+natural_language_inference,synonymy,assertion,assertion_correct,"Given ""{premise}"" is the assertion ""{hypothesis}"" correct?"
+natural_language_inference,synonymy,assertion,assertion_true,"Given ""{premise}"" is the assertion ""{hypothesis}"" true?"
+natural_language_inference,synonymy,claim,claim_correct,"Given ""{premise}"" is the claim ""{hypothesis}"" correct?"
+natural_language_inference,synonymy,claim,claim_true,"Given ""{premise}"" is the claim ""{hypothesis}"" true?"
+natural_language_inference,synonymy,entailment,label_entailment,"Given premise: ""{premise}"" and hypothesis: ""{hypothesis}"". Is the label entailment?"
+natural_language_inference,synonymy,entailment,relationship_entailment,"Is the relationship between ""{premise}"" and ""{hypothesis}"" entailment?"
+natural_language_inference,synonymy,implication,label_implication,"Given premise: ""{premise}"" and hypothesis: ""{hypothesis}"". Is the label implication?"
+natural_language_inference,synonymy,implication,relationship_implication,"Is the relationship between ""{premise}"" and ""{hypothesis}"" implication?"
+natural_language_inference,tense,future,assume,"Given ""{premise}"" will you assume that ""{hypothesis}""?"
+natural_language_inference,tense,future,claim_correct,"Given ""{premise}"" will the claim ""{hypothesis}"" be correct?"
+natural_language_inference,tense,future,deduce,"Given ""{premise}"" will you deduce that ""{hypothesis}""?"
+natural_language_inference,tense,future,follow,"Given ""{premise}"" will it follow that ""{hypothesis}""?"
+natural_language_inference,tense,future,implies,"Given ""{premise}"" will this imply that ""{hypothesis}""?"
+natural_language_inference,tense,future,infer,"Given ""{premise}"" will you infer that ""{hypothesis}""?"
+natural_language_inference,tense,future,justified,"Given ""{premise}"" will you be justified in saying that ""{hypothesis}""?"
+natural_language_inference,tense,future,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" will the label be entailment?"
+natural_language_inference,tense,future,reason,"Given ""{premise}"" will you reason that ""{hypothesis}""?"
+natural_language_inference,tense,future,relationship_entailment,"Will the relationship between ""{premise}"" and ""{hypothesis}"" be entailment?"
+natural_language_inference,tense,future,true,"Given ""{premise}"" will it be true that ""{hypothesis}""?"
+natural_language_inference,tense,future,williams,"""{premise}"" Using only the above description and what you know about the world will ""{hypothesis}"" be correct?"
+natural_language_inference,tense,past,assume,"Given ""{premise}"" did you assume that ""{hypothesis}""?"
+natural_language_inference,tense,past,claim_correct,"Given ""{premise}"" was the claim ""{hypothesis}"" correct?"
+natural_language_inference,tense,past,deduce,"Given ""{premise}"" did you deduce that ""{hypothesis}""?"
+natural_language_inference,tense,past,follow,"Given ""{premise}"" did it follow that ""{hypothesis}""?"
+natural_language_inference,tense,past,implies,"Given ""{premise}"" did this imply that ""{hypothesis}""?"
+natural_language_inference,tense,past,infer,"Given ""{premise}"" did you infer that ""{hypothesis}""?"
+natural_language_inference,tense,past,justified,"Given ""{premise}"" were you justified in saying that ""{hypothesis}""?"
+natural_language_inference,tense,past,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" was the label entailment?"
+natural_language_inference,tense,past,reason,"Given ""{premise}"" did you reason that ""{hypothesis}""?"
+natural_language_inference,tense,past,relationship_entailment,"Was the relationship between ""{premise}"" and ""{hypothesis}"" entailment?"
+natural_language_inference,tense,past,true,"Given ""{premise}"" was it true that ""{hypothesis}""?"
+natural_language_inference,tense,past,williams,"""{premise}"" Using only the above description and what you know about the world was ""{hypothesis}"" correct?"
+natural_language_inference,tense,present,assume,"Given ""{premise}"" do you assume that ""{hypothesis}""?"
+natural_language_inference,tense,present,claim_correct,"Given ""{premise}"" is the claim ""{hypothesis}"" correct?"
+natural_language_inference,tense,present,deduce,"Given ""{premise}"" do you deduce that ""{hypothesis}""?"
+natural_language_inference,tense,present,follow,"Given ""{premise}"" does it follow that ""{hypothesis}""?"
+natural_language_inference,tense,present,implies,"Given ""{premise}"" does this imply that ""{hypothesis}""?"
+natural_language_inference,tense,present,infer,"Given ""{premise}"" do you infer that ""{hypothesis}""?"
+natural_language_inference,tense,present,justified,"Given ""{premise}"" are you justified in saying that ""{hypothesis}""?"
+natural_language_inference,tense,present,label_entailment,"Given premise ""{premise}"" and hypothesis ""{hypothesis}"" is the label entailment?"
+natural_language_inference,tense,present,reason,"Given ""{premise}"" do you reason that ""{hypothesis}""?"
+natural_language_inference,tense,present,relationship_entailment,"Is the relationship between ""{premise}"" and ""{hypothesis}"" entailment?"
+natural_language_inference,tense,present,true,"Given ""{premise}"" is it true that ""{hypothesis}""?"
+natural_language_inference,tense,present,williams,"""{premise}"" Using only the above description and what you know about the world is ""{hypothesis}"" correct?"

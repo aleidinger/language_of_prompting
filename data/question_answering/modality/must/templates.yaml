@@ -1,0 +1,82 @@
+dataset: boolq/must_interrogative
+templates:
+  34392756-4091-43ae-a14f-bffb65db6253: !Template
+    answer_choices: False ||| True
+    id: 34392756-4091-43ae-a14f-bffb65db6253
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer must you choose?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: choose
+    reference: ''
+  448500f7-f032-4170-861e-6529ad82a770: !Template
+    answer_choices: False ||| True
+    id: 448500f7-f032-4170-861e-6529ad82a770
+    jinja: '{{passage}}
+
+      Question: {{question}}? What do you think must be the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: think
+    reference: ''
+  b6681f89-d483-478f-baa1-0664f7493f06: !Template
+    answer_choices: False ||| True
+    id: b6681f89-d483-478f-baa1-0664f7493f06
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which must be the correct answer to the question?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct2
+    reference: ''
+  bac6af4f-a8e6-49c1-8e18-8a38da2ebfab: !Template
+    answer_choices: False ||| True
+    id: bac6af4f-a8e6-49c1-8e18-8a38da2ebfab
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer must be correct?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct
+    reference: ''

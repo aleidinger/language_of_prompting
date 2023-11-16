@@ -1,0 +1,154 @@
+dataset: sst/imperative
+templates:
+  04925891-145f-488a-ba16-c7e651fd17c6: !Template
+    answer_choices: no ||| yes
+    id: 04925891-145f-488a-ba16-c7e651fd17c6
+    jinja: 'Tell me if this movie review is positive.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: review_pos
+    reference: ''
+  0e8e6319-3204-4676-9a9e-c8bddff3208c: !Template
+    answer_choices: no ||| yes
+    id: 0e8e6319-3204-4676-9a9e-c8bddff3208c
+    jinja: 'Tell me if you like the movie based on this movie review.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: like_movie
+    reference: ''
+  14da8c4c-0b5e-40f1-b63c-652a3d8dcf21: !Template
+    answer_choices: no ||| yes
+    id: 14da8c4c-0b5e-40f1-b63c-652a3d8dcf21
+    jinja: 'Tell me if this movie review makes people want to watch this movie.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: review_makes_watch
+    reference: ''
+  6c8675c4-e371-4dcc-b96b-3c8e19a2b1cc: !Template
+    answer_choices: no ||| yes
+    id: 6c8675c4-e371-4dcc-b96b-3c8e19a2b1cc
+    jinja: 'Tell me if this movie review makes people think this is a good movie.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: review_makes_think
+    reference: ''
+  8cf9d7e2-e865-409c-88c7-97830da95deb: !Template
+    answer_choices: no ||| yes
+    id: 8cf9d7e2-e865-409c-88c7-97830da95deb
+    jinja: 'Tell me if this is a good movie.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: good_movie
+    reference: ''
+  afd23921-34a2-43fe-a490-a043b3c976d6: !Template
+    answer_choices: no ||| yes
+    id: afd23921-34a2-43fe-a490-a043b3c976d6
+    jinja: 'Tell me if the label for this movie review is positive.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: label_pos
+    reference: ''
+  b2a76f06-81cb-47fe-abeb-e64d3a6419d6: !Template
+    answer_choices: no ||| yes
+    id: b2a76f06-81cb-47fe-abeb-e64d3a6419d6
+    jinja: 'Tell me if you want to watch this movie based on this movie review.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: watch_movie
+    reference: ''
+  eb25c466-02be-464b-82ad-89c2ae8a3530: !Template
+    answer_choices: no ||| yes
+    id: eb25c466-02be-464b-82ad-89c2ae8a3530
+    jinja: 'Tell me if you find this movie review positive.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: find_review_pos
+    reference: ''

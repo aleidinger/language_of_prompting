@@ -1,0 +1,82 @@
+dataset: boolq/may_interrogative
+templates:
+  3a729d79-9fe9-46e6-ad59-55911fcc97dd: !Template
+    answer_choices: False ||| True
+    id: 3a729d79-9fe9-46e6-ad59-55911fcc97dd
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer may be correct?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct
+    reference: ''
+  b7c85e53-5251-415e-9054-f02e547ce8a7: !Template
+    answer_choices: False ||| True
+    id: b7c85e53-5251-415e-9054-f02e547ce8a7
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer may you choose?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: choose
+    reference: ''
+  c038bb4f-f859-4616-81de-1f610afc3ffa: !Template
+    answer_choices: False ||| True
+    id: c038bb4f-f859-4616-81de-1f610afc3ffa
+    jinja: '{{passage}}
+
+      Question: {{question}}? What do you think may be the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: think
+    reference: ''
+  e391849b-fb50-4c97-8bae-4273375c35be: !Template
+    answer_choices: False ||| True
+    id: e391849b-fb50-4c97-8bae-4273375c35be
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which may be the correct answer to the question?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct2
+    reference: ''

@@ -1,0 +1,182 @@
+dataset: super_glue/cb/imperative
+templates:
+  208c18df-28d6-4768-b34b-dea3eead551f: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 208c18df-28d6-4768-b34b-dea3eead551f
+    jinja: "Given \"{{premise}}\" tell me if it follows that \"{{hypothesis}}\". \n\
+      |||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: follow
+    reference: ''
+  327de1d4-37de-4928-a04b-2fa6f790b938: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 327de1d4-37de-4928-a04b-2fa6f790b938
+    jinja: "Given premise \"{{premise}}\" and hypothesis \"{{hypothesis}}\" Tell me\
+      \ if the label is entailment. \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: label_entailment
+    reference: ''
+  57159d38-a28a-42d0-86ac-064e6d04e46f: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 57159d38-a28a-42d0-86ac-064e6d04e46f
+    jinja: "Given \"{{premise}}\" tell me if the claim \"{{hypothesis}}\" is correct.\
+      \ \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: claim_correct
+    reference: ''
+  85c6d2e4-7c40-4c27-88b8-040d59bc7a8b: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 85c6d2e4-7c40-4c27-88b8-040d59bc7a8b
+    jinja: "Given \"{{premise}}\" tell me if this implies that \"{{hypothesis}}\"\
+      . \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: implies
+    reference: ''
+  978c1627-0db3-47d8-a225-ad09c526f55c: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 978c1627-0db3-47d8-a225-ad09c526f55c
+    jinja: "Given \"{{premise}}\" tell me if you can deduce that \"{{hypothesis}}\"\
+      . \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: deduce
+    reference: ''
+  a54a2970-2841-4374-8c81-664ff790d67c: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: a54a2970-2841-4374-8c81-664ff790d67c
+    jinja: "Given \"{{premise}}\" tell me if you are justified in saying that \"{{hypothesis}}\"\
+      . \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: justified
+    reference: ''
+  a55b6830-5b73-47b7-b5cd-2357a515a8ce: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: a55b6830-5b73-47b7-b5cd-2357a515a8ce
+    jinja: "Given \"{{premise}}\" tell me if it is true that \"{{hypothesis}}\". \n\
+      |||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: 'true'
+    reference: ''
+  aa026791-9b4a-496e-9c37-0f666ac259de: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: aa026791-9b4a-496e-9c37-0f666ac259de
+    jinja: "\"{{premise}}\" Using only the above description and what you know about\
+      \ the world tell me if \"{{hypothesis}}\" is correct. \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: williams
+    reference: ''
+  b62b25d7-9f96-4a43-8d46-5ba471cc333b: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: b62b25d7-9f96-4a43-8d46-5ba471cc333b
+    jinja: "Given \"{{premise}}\" tell me if you can assume that \"{{hypothesis}}\"\
+      . \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: assume
+    reference: ''
+  d243adcf-b27e-411a-afe4-0fc541565572: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: d243adcf-b27e-411a-afe4-0fc541565572
+    jinja: "Given \"{{premise}}\" tell me if you can infer that \"{{hypothesis}}\"\
+      . \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: infer
+    reference: ''
+  e54851a6-f6d1-4477-bef0-5caf1f6299e5: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: e54851a6-f6d1-4477-bef0-5caf1f6299e5
+    jinja: "Given \"{{premise}}\" tell me if you can reason that \"{{hypothesis}}\"\
+      . \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: reason
+    reference: ''
+  f7b99ad5-107d-4ace-b208-fecebaa570f0: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: f7b99ad5-107d-4ace-b208-fecebaa570f0
+    jinja: "Tell me if the relationship between \"{{premise}}\" and \"{{hypothesis}}\"\
+      \ is entailment. \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: relationship_entailment
+    reference: ''

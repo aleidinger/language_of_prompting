@@ -1,0 +1,32 @@
+dataset: super_glue/cb/entailment
+templates:
+  5980d89c-3568-480a-9fce-683adec6f259: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 5980d89c-3568-480a-9fce-683adec6f259
+    jinja: "Given premise: \"{{premise}}\" and hypothesis: \"{{hypothesis}}\". Is\
+      \ the label entailment? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: label_entailment
+    reference: ''
+  a0485af6-7c6e-4fba-b891-6f9f58658588: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: a0485af6-7c6e-4fba-b891-6f9f58658588
+    jinja: "Is the relationship between \"{{premise}}\" and \"{{hypothesis}}\" entailment?\
+      \ \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: relationship_entailment
+    reference: ''

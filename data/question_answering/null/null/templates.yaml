@@ -1,0 +1,42 @@
+dataset: boolq/null
+templates:
+  3ec22967-0972-4860-a241-0a06afc41b9c: !Template
+    answer_choices: False ||| True
+    id: 3ec22967-0972-4860-a241-0a06afc41b9c
+    jinja: '{{passage}}
+
+      {{question}}?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: nullnoQ
+    reference: ''
+  ce37e982-5145-42ac-b1fa-b2ee7b17750e: !Template
+    answer_choices: False ||| True
+    id: ce37e982-5145-42ac-b1fa-b2ee7b17750e
+    jinja: '{{passage}}
+
+      Question: {{question}}?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: nullQ
+    reference: ''

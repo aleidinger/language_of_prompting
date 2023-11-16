@@ -1,0 +1,150 @@
+dataset: super_glue/cb/active
+templates:
+  160cbae2-57df-4da3-8fe7-d6feb3d427f1: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 160cbae2-57df-4da3-8fe7-d6feb3d427f1
+    jinja: "Given \"{{premise}}\" can you guess that \"{{hypothesis}}\"? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: guess
+    reference: ''
+  1a1a9f73-543f-49c5-8b51-44da71f3ce9c: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 1a1a9f73-543f-49c5-8b51-44da71f3ce9c
+    jinja: "Given \"{{premise}}\" can you reason that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: reason
+    reference: ''
+  2744cdd9-398e-4983-8069-393fadc9667a: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 2744cdd9-398e-4983-8069-393fadc9667a
+    jinja: "Given premise \"{{premise}}\" and hypothesis \"{{hypothesis}}\". Can you\
+      \ label this as entailment? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: label_entailment
+    reference: ''
+  4325bd0e-e7a3-4767-985a-a8416a3f3cb4: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 4325bd0e-e7a3-4767-985a-a8416a3f3cb4
+    jinja: "Given \"{{premise}}\" can you assume that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: assume
+    reference: ''
+  5d8e7603-f2b6-4d28-a615-f6ca6de7dd46: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 5d8e7603-f2b6-4d28-a615-f6ca6de7dd46
+    jinja: "Given \"{{hypothesis}}\" does it follow that \"{{premise}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: follow
+    reference: ''
+  610ccb62-5672-41d9-bec5-8280b6e4e2a7: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: 610ccb62-5672-41d9-bec5-8280b6e4e2a7
+    jinja: "Given \"{{premise}}\" can you deduce that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: deduce
+    reference: ''
+  a5a01c06-cccd-4b29-9b8a-36186213e594: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: a5a01c06-cccd-4b29-9b8a-36186213e594
+    jinja: "Given \"{{premise}}\" can you conclude that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: conclude
+    reference: ''
+  de62f56e-f103-43e8-a485-c7fdd6e43bfc: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: de62f56e-f103-43e8-a485-c7fdd6e43bfc
+    jinja: "Given \"{{premise}}\" does this imply that \"{{hypothesis}}\"? \n|||\n\
+      {{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: implies
+    reference: ''
+  f2959a94-43bb-456b-83df-c1e62f5b6dab: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: f2959a94-43bb-456b-83df-c1e62f5b6dab
+    jinja: "Given {{premis}} can you infer that \"{{hypothesis}}\"? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: infer
+    reference: ''
+  fac93350-4009-4ca8-9f4c-c1e93438abdf: !Template
+    answer_choices: yes ||| no ||| maybe
+    id: fac93350-4009-4ca8-9f4c-c1e93438abdf
+    jinja: "Given \"{{premise}}\" can you justifiedly say that \"{{hypothesis}}\"\
+      ? \n|||\n{{answer_choices[label]}}"
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: justify
+    reference: ''

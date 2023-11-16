@@ -1,0 +1,82 @@
+dataset: boolq/might_interrogative
+templates:
+  44fbd369-96a4-4280-919a-d287b8df5b14: !Template
+    answer_choices: False ||| True
+    id: 44fbd369-96a4-4280-919a-d287b8df5b14
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer might be correct?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct
+    reference: ''
+  71b5e6f2-c9d3-4ee6-a036-08f1655e09c7: !Template
+    answer_choices: False ||| True
+    id: 71b5e6f2-c9d3-4ee6-a036-08f1655e09c7
+    jinja: '{{passage}}
+
+      Question: {{question}}? What do you think might be the correct answer?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: think
+    reference: ''
+  86612326-bace-4f14-82e8-f482a39830a3: !Template
+    answer_choices: False ||| True
+    id: 86612326-bace-4f14-82e8-f482a39830a3
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which might be the correct answer to the question?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: correct2
+    reference: ''
+  c4feb4cd-69c9-40fc-b2af-5aec91276a74: !Template
+    answer_choices: False ||| True
+    id: c4feb4cd-69c9-40fc-b2af-5aec91276a74
+    jinja: '{{passage}}
+
+      Question: {{question}}? Which answer might you choose?
+
+      |||
+
+      {{answer_choices[answer]}}'
+    metadata: !TemplateMetadata
+      active_passive: ''
+      choices_in_prompt: true
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: choose
+    reference: ''

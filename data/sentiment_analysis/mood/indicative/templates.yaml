@@ -1,0 +1,154 @@
+dataset: sst/indicative
+templates:
+  085d7eff-4c57-496f-ba25-2804940a775c: !Template
+    answer_choices: no ||| yes
+    id: 085d7eff-4c57-496f-ba25-2804940a775c
+    jinja: 'You find this movie review positive.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: find_review_pos
+    reference: ''
+  097985d6-72e5-4dfd-bba9-29cb3ace5552: !Template
+    answer_choices: no ||| yes
+    id: 097985d6-72e5-4dfd-bba9-29cb3ace5552
+    jinja: 'This movie review is positive.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: review_pos
+    reference: ''
+  1690f9a9-60d1-4d11-9815-8000c37a70c9: !Template
+    answer_choices: no ||| yes
+    id: 1690f9a9-60d1-4d11-9815-8000c37a70c9
+    jinja: 'You like the movie based on this movie review.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: like_movie
+    reference: ''
+  2ee2bf3f-987d-4311-9199-66c701fb7e05: !Template
+    answer_choices: no ||| yes
+    id: 2ee2bf3f-987d-4311-9199-66c701fb7e05
+    jinja: 'This movie review makes people think this is a good movie.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: review_makes_think
+    reference: ''
+  4981ae13-6026-402e-9db3-408218e5b1ec: !Template
+    answer_choices: no ||| yes
+    id: 4981ae13-6026-402e-9db3-408218e5b1ec
+    jinja: 'This is a good movie.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: good_movie
+    reference: ''
+  5a1e65c9-d184-462f-a026-69a8c43e0d4c: !Template
+    answer_choices: no ||| yes
+    id: 5a1e65c9-d184-462f-a026-69a8c43e0d4c
+    jinja: 'You want to watch this movie based on this movie review.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: watch_movie
+    reference: ''
+  74620aa7-02b4-42f6-add9-02e2789f7725: !Template
+    answer_choices: no ||| yes
+    id: 74620aa7-02b4-42f6-add9-02e2789f7725
+    jinja: 'The label for this movie review is positive.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: label_pos
+    reference: ''
+  af97ceab-c6ae-4e2b-948e-fc2bcf480ef5: !Template
+    answer_choices: no ||| yes
+    id: af97ceab-c6ae-4e2b-948e-fc2bcf480ef5
+    jinja: 'This movie review makes people want to watch this movie.
+
+
+      {{sentence}} |||
+
+      {{answer_choices[0 if label < 0.5 else 1]}}'
+    metadata: !TemplateMetadata
+      active_passive: active
+      choices_in_prompt: null
+      languages: null
+      metrics: null
+      mood: ''
+      original_task: null
+      pov: ''
+    name: review_makes_watch
+    reference: ''
